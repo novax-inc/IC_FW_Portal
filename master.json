@@ -1,1 +1,59 @@
-
+{
+    "Project": "IntelliCross",
+    "Firmware": [
+        {
+            "id": "v1.62",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.62.bin",
+            "checksum": "",
+            "date": "2021-12-09",
+            "description": "Support hotspot connection."
+        },
+        {
+            "id": "v1.61",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.61.bin",
+            "checksum": "",
+            "date": "2021-12-8",
+            "description": "Fixed bluetooth issue. Improved user interface."
+        },
+        {
+            "id": "v1.60",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.60.bin",
+            "checksum": "",
+            "date": "2021-10-03"
+        },
+        {
+            "id": "v1.59",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.59.bin",
+            "checksum": "",
+            "date": "2021-02-09"
+        }
+    ],
+    "Filesystem": [
+        {
+            "id": "v1.11-rc21",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc21.bin",
+            "checksum": "",
+            "date": "2021-12-09",
+            "description": "Fixed minor bug in sound page."
+        },
+        {
+            "id": "v1.11-rc20",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc20.bin",
+            "checksum": "",
+            "date": "2021-10-08"
+        },
+        {
+            "id": "v1.11-rc10",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc10.bin",
+            "checksum": "",
+            "date": "2021-08-30"
+        },
+        {
+            "id": "v1.10",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.10.bin",
+            "checksum": "",
+            "date": "2021-05-01"
+        }
+    ],
+    "Default_setting": {}
+}
