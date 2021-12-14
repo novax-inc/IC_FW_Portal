@@ -30,6 +30,13 @@
     ],
     "Filesystem": [
         {
+            "id": "v1.11-rc22",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc22.bin",
+            "checksum": "",
+            "date": "2021-12-13",
+            "description": "OTA upload"
+        },
+        {
             "id": "v1.11-rc21",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc21.bin",
             "checksum": "",
