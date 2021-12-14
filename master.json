@@ -9,6 +9,13 @@
             "description": "Support hotspot connection."
         },
         {
+            "id": "v1.62_BLE",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.62_BLE.bin",
+            "checksum": "",
+            "date": "2021-12-09",
+            "description": "Support hotspot connection."
+        },
+        {
             "id": "v1.61",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.61.bin",
             "checksum": "",
