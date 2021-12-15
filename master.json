@@ -75,6 +75,13 @@
     ],
     "Filesystem": [
         {
+            "id": "v1.11-rc23",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc23.bin",
+            "checksum": "",
+            "date": "2021-12-15",
+            "description": "merge latest frontend"
+        },
+        {
             "id": "v1.11-rc22",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc22.bin",
             "checksum": "",
