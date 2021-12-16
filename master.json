@@ -45,6 +45,13 @@
     ],
     "Filesystem": [
         {
+            "id": "v1.11-rc24",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc24.bin",
+            "checksum": "",
+            "date": "2021-12-16",
+            "description": "factory reset"
+        },
+        {
             "id": "v1.11-rc23",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc23.bin",
             "checksum": "",
