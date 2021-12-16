@@ -30,50 +30,6 @@
             "description": "Fixed bluetooth issue. Improved user interface."
         },
         {
-            "id": "v1.60",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.60.bin",
-            "checksum": "",
-            "date": "2021-10-03"
-        },
-        {
-            "id": "v1.59",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.59.bin",
-            "checksum": "",
-            "date": "2021-02-09"
-        },
-        {
-            "id": "v1.58",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.61.bin",
-            "checksum": "",
-            "date": "2021-12-8",
-            "description": "Fixed bluetooth issue. Improved user interface."
-        },
-        {
-            "id": "v1.57",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.60.bin",
-            "checksum": "",
-            "date": "2021-10-03"
-        },
-        {
-            "id": "v1.56",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.59.bin",
-            "checksum": "",
-            "date": "2021-02-09"
-        },
-        {
-            "id": "v1.55",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.61.bin",
-            "checksum": "",
-            "date": "2021-12-8",
-            "description": "Fixed bluetooth issue. Improved user interface."
-        },
-        {
-            "id": "v1.54",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.60.bin",
-            "checksum": "",
-            "date": "2021-10-03"
-        },
-        {
             "id": "v1.53",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.59.bin",
             "checksum": "",
@@ -129,12 +85,13 @@
             "date": "2021-12-15",
             "description": "Support hotspot connection."
         },
-         {
+        {
             "id": "v1.11-rc23",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc23.bin",
             "checksum": "",
             "date": "2021-12-15",
             "description": "merge latest frontend"
         }
-    ]
+    ],
+    "Button_req":{}
 }
