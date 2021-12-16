@@ -2,6 +2,13 @@
     "Project": "IntelliCross",
     "Firmware": [
         {
+            "id": "v1.63",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.63.bin",
+            "checksum": "",
+            "date": "2021-12-16",
+            "description": "factory firmware reset"
+        },
+        {
             "id": "v1.62",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.62.bin",
             "checksum": "",
@@ -114,5 +121,21 @@
             "date": "2021-05-01"
         }
     ],
-    "Default_setting": {}
+    "Default_setting": [
+        {
+            "id": "v1.62",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.62.bin",
+            "checksum": "",
+            "date": "2021-12-15",
+            "description": "Support hotspot connection."
+        },
+         {
+            "id": "v1.11-rc23",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc23.bin",
+            "checksum": "",
+            "date": "2021-12-15",
+            "description": "merge latest frontend"
+        }
+        
+    ],
 }
