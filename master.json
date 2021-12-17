@@ -85,8 +85,8 @@
             "date": "2021-08-30"
         },
         {
-            "id": "v1.10",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.10.bin",
+            "id": "v1.03",
+            "url": "http://10.243.249.81/tf_intellicross/spiffs_v1.03.bin",
             "checksum": "",
             "date": "2021-05-01"
         }
