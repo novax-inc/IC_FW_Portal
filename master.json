@@ -37,8 +37,8 @@
             "description": "Fixed bluetooth issue. Improved user interface."
         },
         {
-            "id": "v1.53",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.59.bin",
+            "id": "v1.6x",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.6x.bin",
             "checksum": "",
             "date": "2021-02-09"
         }
