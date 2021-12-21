@@ -45,6 +45,13 @@
     ],
     "Filesystem": [
         {
+            "id": "v1.11-rc25",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc25.bin",
+            "checksum": "",
+            "date": "2021-12-20",
+            "description": "compress to 2M size"
+        },
+        {
             "id": "v1.11-rc24",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc24.bin",
             "checksum": "",
