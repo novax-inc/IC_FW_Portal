@@ -2,42 +2,42 @@
     "Project": "IntelliCross",
     "Firmware": [
         {
-            "id": "v1.63",
+            "id": "1.63",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.63.bin",
             "checksum": "",
             "date": "2021-12-16",
             "description": "factory reset"
         },
         {
-            "id": "v1.63_BLE",
+            "id": "1.63_BLE",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.63_BLE.bin",
             "checksum": "",
             "date": "2021-12-16",
             "description": ""
         },
         {
-            "id": "v1.62",
+            "id": "1.62x",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.62.bin",
             "checksum": "",
             "date": "2021-12-15",
             "description": "Support hotspot connection."
         },
         {
-            "id": "v1.62_BLE",
+            "id": "1.62_BLE",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.62_BLE.bin",
             "checksum": "",
             "date": "2021-12-09",
             "description": "Support hotspot connection."
         },
         {
-            "id": "v1.61",
+            "id": "1.61",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.61.bin",
             "checksum": "",
             "date": "2021-12-8",
             "description": "Fixed bluetooth issue. Improved user interface."
         },
         {
-            "id": "v1.6x",
+            "id": "1.6x",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.6x.bin",
             "checksum": "",
             "date": "2021-02-09"
@@ -45,54 +45,54 @@
     ],
     "Filesystem": [
         {
-            "id": "v1.11-rc25",
+            "id": "1.11-rc25",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc25.bin",
             "checksum": "",
             "date": "2021-12-20",
             "description": "compress to 2M size"
         },
         {
-            "id": "v1.11-rc24",
+            "id": "1.11-rc24",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc24.bin",
             "checksum": "",
             "date": "2021-12-16",
             "description": "factory reset"
         },
         {
-            "id": "v1.11-rc23",
+            "id": "1.11-rc23",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc23.bin",
             "checksum": "",
             "date": "2021-12-15",
             "description": "merge latest frontend"
         },
         {
-            "id": "v1.11-rc22",
+            "id": "1.11-rc22",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc22.bin",
             "checksum": "",
             "date": "2021-12-13",
             "description": "OTA upload"
         },
         {
-            "id": "v1.11-rc21",
+            "id": "1.11-rc21",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc21.bin",
             "checksum": "",
             "date": "2021-12-09",
             "description": "Fixed minor bug in sound page."
         },
         {
-            "id": "v1.11-rc20",
+            "id": "1.11-rc20",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc20.bin",
             "checksum": "",
             "date": "2021-10-08"
         },
         {
-            "id": "v1.11-rc10",
+            "id": "1.11-rc10",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc10.bin",
             "checksum": "",
             "date": "2021-08-30"
         },
         {
-            "id": "v1.03",
+            "id": "1.03",
             "url": "http://10.243.249.81/tf_intellicross/spiffs_v1.03.bin",
             "checksum": "",
             "date": "2021-05-01"
@@ -100,14 +100,14 @@
     ],
     "Default_setting": [
         {
-            "id": "v1.62",
+            "id": "1.62",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.62.bin",
             "checksum": "",
             "date": "2021-12-15",
             "description": "Support hotspot connection."
         },
         {
-            "id": "v1.11-rc23",
+            "id": "1.11-rc23",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc23.bin",
             "checksum": "",
             "date": "2021-12-15",
