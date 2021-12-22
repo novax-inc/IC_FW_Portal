@@ -9,13 +9,6 @@
             "description": "factory reset"
         },
         {
-            "id": "1.64",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.64.bin",
-            "checksum": "",
-            "date": "2021-12-20",
-            "description": "factory reset"
-        },
-        {
             "id": "1.63_BLE",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.63_BLE.bin",
             "checksum": "",
