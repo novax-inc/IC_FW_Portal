@@ -46,7 +46,7 @@
     "Filesystem": [
         {
             "id": "1.11-rc27",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release-v1.11-rc27.bin",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/spiffs-release_v1.11-rc27.bin",
             "checksum": "",
             "date": "2021-12-23",
             "description": "for test"
