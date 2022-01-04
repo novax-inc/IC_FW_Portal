@@ -3,10 +3,10 @@
     "Firmware": [
         {
             "id": "1.64",
-            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.63.bin",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.64.bin",
             "checksum": "",
             "date": "2022-01-04",
-            "description": "latest test 1.63"
+            "description": "Update status display"
         },
         {
             "id": "1.63",
