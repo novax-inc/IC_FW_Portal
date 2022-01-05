@@ -7,6 +7,11 @@
         </tr>
         <tr>
           <th align="left">
+            <img src="../assets/android.png"/>&nbsp;<img src="../assets/apple.png"/>
+          </th>
+        </tr>
+        <tr>
+          <th align="left">
             <h4>Firmware</h4>
           </th>
         </tr>
