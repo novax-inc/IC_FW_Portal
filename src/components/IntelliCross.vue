@@ -7,7 +7,7 @@
         </tr>
         <tr>
           <th colspan="4" align="center">
-            <img width="100" src="../assets/android.png"/>&nbsp;<img width="100" src="../assets/apple.png"/>
+            <a href="./IntelliCross254.apk"><img width="100" src="../assets/android.png"/></a>&nbsp;<a><img width="100" src="../assets/apple.png"/></a>
           </th>
         </tr>
         <tr>
