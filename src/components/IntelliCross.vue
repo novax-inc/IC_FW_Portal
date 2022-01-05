@@ -7,7 +7,7 @@
         </tr>
         <tr>
           <th align="left">
-            <img src="../assets/android.png"/>&nbsp;<img src="../assets/apple.png"/>
+            <img width="150" src="../assets/android.png"/>&nbsp;<img width="150" src="../assets/apple.png"/>
           </th>
         </tr>
         <tr>
