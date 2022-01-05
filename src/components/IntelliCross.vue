@@ -23,7 +23,7 @@
         </tr>
         <tr v-for="(record, index) in data['Firmware']" :key="index">
           <td align="left">{{ record.date }}</td>
-          <td align="left">{{ record.id }}</td>
+          <td align="left"><font color="#f49f82">{{ record.id }}</font></td>
           <td align="left"><a :href="record.url">Download</a></td>
           <td align="left">{{ record.description }}</td>
         </tr>
@@ -43,7 +43,7 @@
 
         <tr v-for="(record, index) in data['Filesystem']" :key="index">
           <td align="left">{{ record.date }}</td>
-          <td align="left">{{ record.id }}</td>
+          <td align="left"><font color="#f49f82">{{ record.id }}</font></td>
           <td align="left"><a :href="record.url">Download</a></td>
           <td align="left">{{ record.description }}</td>
         </tr>
@@ -63,7 +63,7 @@
 
         <tr v-for="(record, index) in data['Default_setting']" :key="index">
           <td align="left">{{ record.date }}</td>
-          <td align="left">{{ record.id }}</td>
+          <td align="left"><font color="#f49f82">{{ record.id }}</font></td>
           <td align="left"><a :href="record.url">Download</a></td>
           <td align="left">{{ record.description }}</td>
         </tr>
