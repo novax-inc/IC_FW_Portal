@@ -1,10 +1,15 @@
 <template>
-  <div>
-    <table width="100%">
-      <thead>
-        <tr><th><b>{{ data["Project"] }}-Firmware</b></th></tr>
-      </thead>
-      <tbody>
+    <table  class="center">
+        <tr>
+          <th align="center">
+            <h3>{{ data["Project"] }}</h3>
+          </th>
+        </tr>
+        <tr>
+          <th align="left">
+            <h4>Firmware</h4>
+          </th>
+        </tr>
         <tr>
           <th align="left">Date</th>
           <th align="left">F/W Ver.</th>
@@ -17,28 +22,48 @@
           <td align="left"><a :href="record.url">Download</a></td>
           <td align="left">{{ record.description }}</td>
         </tr>
-      </tbody>
-     <thead>
-        <tr><th><b>{{ data["Project"] }}-Filesystem</b></th></tr>
-      </thead>
-      <thead>
+  
+        <tr>
+          <th align="left">
+            <h4>Filesystem</h4>
+          </th>
+        </tr>
+  
         <tr>
           <th align="left">Date</th>
           <th align="left">F/W Ver.</th>
           <th align="left">Link</th>
           <th align="left">Description</th>
         </tr>
-      </thead>
-      <tbody>
+
         <tr v-for="(record, index) in data['Filesystem']" :key="index">
           <td align="left">{{ record.date }}</td>
           <td align="left">{{ record.id }}</td>
           <td align="left"><a :href="record.url">Download</a></td>
           <td align="left">{{ record.description }}</td>
         </tr>
-      </tbody>
+
+        <tr>
+          <th align="left">
+            <h4>Default</h4>
+          </th>
+        </tr>
+
+        <tr>
+          <th align="left">Date</th>
+          <th align="left">F/W Ver.</th>
+          <th align="left">Link</th>
+          <th align="left">Description</th>
+        </tr>
+
+        <tr v-for="(record, index) in data['Default_setting']" :key="index">
+          <td align="left">{{ record.date }}</td>
+          <td align="left">{{ record.id }}</td>
+          <td align="left"><a :href="record.url">Download</a></td>
+          <td align="left">{{ record.description }}</td>
+        </tr>
+  
     </table>
-  </div>
 </template>
 
 <script>
@@ -74,5 +99,10 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.center {
+border: 0px solid #403f41;
+justify-content: center;
 }
 </style>
