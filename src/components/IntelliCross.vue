@@ -1,17 +1,17 @@
 <template>
     <table  class="center">
         <tr>
-          <th align="center">
-            <h3>{{ data["Project"] }}</h3>
+          <th colspan="4" align="center">
+            <h2>{{ data["Project"] }}</h2>
           </th>
         </tr>
         <tr>
-          <th align="left">
-            <img width="150" src="../assets/android.png"/>&nbsp;<img width="150" src="../assets/apple.png"/>
+          <th colspan="4" align="center">
+            <img width="100" src="../assets/android.png"/>&nbsp;<img width="100" src="../assets/apple.png"/>
           </th>
         </tr>
         <tr>
-          <th align="left">
+          <th colspan="4" align="left">
             <h4>Firmware</h4>
           </th>
         </tr>
@@ -29,7 +29,7 @@
         </tr>
   
         <tr>
-          <th align="left">
+          <th colspan="4" align="left">
             <h4>Filesystem</h4>
           </th>
         </tr>
@@ -49,7 +49,7 @@
         </tr>
 
         <tr>
-          <th align="left">
+          <th colspan="4" align="left">
             <h4>Default</h4>
           </th>
         </tr>
