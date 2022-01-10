@@ -20,5 +20,20 @@ npm run build
 npm run lint
 ```
 
+# Release Process
+### Copy DIST to root
+```
+cp -rf dist/* .
+```
+
+### Release to netlify
+```
+git add .
+git commit -m 'MESSAGE'
+git push
+```
+The intellicross.netlify.app will update accordingly
+
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
