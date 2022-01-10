@@ -9,6 +9,13 @@
             "description": "Update status display"
         },
         {
+            "id": "1.64_hotspot",
+            "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.64_hotspot.bin",
+            "checksum": "",
+            "date": "2022-01-01",
+            "description": "hotspot working version"
+        },
+        {
             "id": "1.63",
             "url": "https://raw.githubusercontent.com/xiaobingnic/download/main/IC_TouchFree_v1.63.bin",
             "checksum": "",
