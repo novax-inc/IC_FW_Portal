@@ -1,5 +1,5 @@
 <template>
-  <a href="https://novax.com"><img alt="Novax logo" src="./assets/logo-150x150.png"></a>
+  <a href="https://novax.com"><img alt="Novax logo" src="./assets/logo.png"></a>
   <hr/>
   <IntelliCross/>
 </template>
