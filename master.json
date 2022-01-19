@@ -59,6 +59,13 @@
     ],
     "Filesystem": [
         {
+            "id": "Pelco UI",
+            "url": "spiffs-demo-novax.bin",
+            "checksum": "",
+            "date": "2022-01-19",
+            "description": "Training Build"
+        },
+        {
             "id": "DEMO",
             "url": "spiffs-demo-v1.11-rc24.bin",
             "checksum": "",
