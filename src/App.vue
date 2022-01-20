@@ -37,7 +37,7 @@ export default {
 }
 body {
   margin: 0em;
-  margin-top:6em;
+  margin-top:5em;
 }
 header {
   background-color: #00718f;

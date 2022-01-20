@@ -9,8 +9,8 @@
       <a><img width="100" src="../assets/apple.png" /></a>
     </div>
 
-    <div class="content">
-      <div class="column">
+    <div>
+      <div>
         <table>
           <tr>
             <div colspan="4" align="left">
@@ -25,15 +25,15 @@
           </tr>
           <tr v-for="(record, index) in data['Firmware']" :key="index">
             <td align="left">{{ record.date }}</td>
-            <td align="left">
-              <font color="#f49f82">{{ record.id }}</font>
+            <td align="left" style="color:#f49f82">{{ record.id }}
+              <!-- <font color="#f49f82">{{ record.id }}</font> -->
             </td>
             <td align="left"><a :href="record.url">Download</a></td>
             <td align="left">{{ record.description }}</td>
           </tr>
         </table>
       </div>
-      <div class="column">
+      <div>
         <table>
           <tr>
             <div colspan="4" align="left">
@@ -50,8 +50,8 @@
 
           <tr v-for="(record, index) in data['Filesystem']" :key="index">
             <td align="left">{{ record.date }}</td>
-            <td align="left">
-              <font color="#f49f82">{{ record.id }}</font>
+            <td align="left" style="color:#f49f82">{{ record.id }}
+              <!-- <font color="#f49f82">{{ record.id }}</font> -->
             </td>
             <td align="left"><a :href="record.url">Download</a></td>
             <td align="left">{{ record.description }}</td>
@@ -116,10 +116,5 @@ tr:nth-child(even) {
 }
 a {
   color: #42b983;
-}
-.content {
-  display: flex;
-  justify-content: space-evenly;
-  clear: both;
 }
 </style>
