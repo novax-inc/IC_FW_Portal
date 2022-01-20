@@ -1,74 +1,86 @@
 <template>
-    <table  class="center">
-        <tr>
-          <th colspan="4" align="center">
-            <h2>{{ data["Project"] }}</h2>
-          </th>
-        </tr>
-        <tr>
-          <th colspan="4" align="center">
-            <a href="./IntelliCross254.apk"><img width="100" src="../assets/android.png"/></a>&nbsp;<a><img width="100" src="../assets/apple.png"/></a>
-          </th>
-        </tr>
-        <tr>
-          <th colspan="4" align="left">
-            <h4>Firmware</h4>
-          </th>
-        </tr>
-        <tr>
-          <th align="left">Date</th>
-          <th align="left">F/W Ver.</th>
-          <th align="left">Link</th>
-          <th align="left">Description</th>
-        </tr>
-        <tr v-for="(record, index) in data['Firmware']" :key="index">
-          <td align="left">{{ record.date }}</td>
-          <td align="left"><font color="#f49f82">{{ record.id }}</font></td>
-          <td align="left"><a :href="record.url">Download</a></td>
-          <td align="left">{{ record.description }}</td>
-        </tr>
-  
-        <tr>
-          <th colspan="4" align="left">
-            <h4>Filesystem</h4>
-          </th>
-        </tr>
-  
-        <tr>
-          <th align="left">Date</th>
-          <th align="left">F/W Ver.</th>
-          <th align="left">Link</th>
-          <th align="left">Description</th>
-        </tr>
+  <div align="center">
+    <div>
+      <h2>{{ data["Project"] }}</h2>
+      <a href="./IntelliCross254.apk"
+        ><img width="100" src="../assets/android.png"
+      /></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a><img width="100" src="../assets/apple.png" /></a>
+    </div>
 
-        <tr v-for="(record, index) in data['Filesystem']" :key="index">
-          <td align="left">{{ record.date }}</td>
-          <td align="left"><font color="#f49f82">{{ record.id }}</font></td>
-          <td align="left"><a :href="record.url">Download</a></td>
-          <td align="left">{{ record.description }}</td>
-        </tr>
+    <div class="content">
+      <div class="column">
+        <table>
+          <tr>
+            <div colspan="4" align="left">
+              <h3>Firmware</h3>
+            </div>
+          </tr>
+          <tr>
+            <th align="left">Date</th>
+            <th align="left">F/W Ver.</th>
+            <th align="left">Link</th>
+            <th align="left">Description</th>
+          </tr>
+          <tr v-for="(record, index) in data['Firmware']" :key="index">
+            <td align="left">{{ record.date }}</td>
+            <td align="left">
+              <font color="#f49f82">{{ record.id }}</font>
+            </td>
+            <td align="left"><a :href="record.url">Download</a></td>
+            <td align="left">{{ record.description }}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="column">
+        <table>
+          <tr>
+            <div colspan="4" align="left">
+              <h3>Filesystem</h3>
+            </div>
+          </tr>
 
-        <tr>
-          <th colspan="4" align="left">
-            <h4>Default</h4>
-          </th>
-        </tr>
+          <tr>
+            <th align="left">Date</th>
+            <th align="left">F/W Ver.</th>
+            <th align="left">Link</th>
+            <th align="left">Description</th>
+          </tr>
 
-        <tr>
-          <th align="left">Date</th>
-          <th align="left">F/W Ver.</th>
-          <th align="left">Link</th>
-          <th align="left">Description</th>
-        </tr>
+          <tr v-for="(record, index) in data['Filesystem']" :key="index">
+            <td align="left">{{ record.date }}</td>
+            <td align="left">
+              <font color="#f49f82">{{ record.id }}</font>
+            </td>
+            <td align="left"><a :href="record.url">Download</a></td>
+            <td align="left">{{ record.description }}</td>
+          </tr>
 
-        <tr v-for="(record, index) in data['Default_setting']" :key="index">
-          <td align="left">{{ record.date }}</td>
-          <td align="left"><font color="#f49f82">{{ record.id }}</font></td>
-          <td align="left"><a :href="record.url">Download</a></td>
-          <td align="left">{{ record.description }}</td>
-        </tr>
-  
-    </table>
+          <!-- <div colspan="4" align="left">
+        <h3>Default</h3>
+      </div>
+
+      <tr>
+        <th align="left">Date</th>
+        <th align="left">F/W Ver.</th>
+        <th align="left">Link</th>
+        <th align="left">Description</th>
+      </tr>
+
+      <tr v-for="(record, index) in data['Default_setting']" :key="index">
+        <td align="left">{{ record.date }}</td>
+        <td align="left">
+          <font color="#f49f82">{{ record.id }}</font>
+        </td>
+        <td align="left"><a :href="record.url">Download</a></td>
+        <td align="left">{{ record.description }}</td>
+      </tr> -->
+        </table>
+      </div>
+    </div>
+    <br />
+  </div>
 </template>
 
 <script>
@@ -91,23 +103,23 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+th {
+  background-color: #fcac00;
+  color: #fff;
+  padding: 0.4em;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+td {
+  padding: 0.4em;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 a {
   color: #42b983;
 }
-
-.center {
-border: 0px solid #403f41;
-justify-content: center;
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  clear: both;
 }
 </style>

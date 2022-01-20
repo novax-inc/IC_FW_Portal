@@ -1,18 +1,30 @@
 <template>
-  <a href="https://novax.com"><img alt="Novax logo" src="./assets/logo.png"></a>
-  <hr/>
-  <IntelliCross/>
+  <header>
+    <a href="https://novax.com"
+      ><img alt="Novax logo" src="./assets/logo.png" style="width: auto; height: 4em;"
+    /></a>
+  </header>
+  <IntelliCross />
+  <footer>
+    <div>
+      <h3><small>have questions?...</small>Contact us today</h3>
+      <p>1-866-977-4277 (toll-free)</p>
+      <p>support@novax.com</p>
+      <p>1-604-525-2739</p>
+    </div>
+    <div class="line"></div>
+  </footer>
 </template>
 
 <script>
-import IntelliCross from './components/IntelliCross.vue'
+import IntelliCross from "./components/IntelliCross.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    IntelliCross
-  }
-}
+    IntelliCross,
+  },
+};
 </script>
 
 <style>
@@ -22,6 +34,26 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0em;
+  margin-top:6em;
+}
+header {
+  background-color: #00718f;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+}
+footer {
+  background-color: #00718f;
+  color: whitesmoke;
+}
+footer p {
+  margin: 0.3em;
+}
+footer .line {
+  background-color: #fcac00;
+  height: 0.7em;
 }
 </style>
