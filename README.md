@@ -1,4 +1,4 @@
-# download
+# Intellicross download
 
 ## Project setup
 ```
@@ -21,10 +21,6 @@ npm run lint
 ```
 
 # Release Process
-### Copy DIST to root
-```
-cp -rf dist/* .
-```
 
 ### Release to netlify
 ```
