@@ -31,10 +31,10 @@
             <td align="left"><a :href="record.url">Download</a></td>
             <td align="left">{{ record.description }}</td>
           </tr>
-        </table>
+        <!-- </table>
       </div>
       <div>
-        <table>
+        <table> -->
           <tr>
             <div colspan="4" align="left">
               <h3>Filesystem</h3>
