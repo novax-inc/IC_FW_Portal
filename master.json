@@ -1,148 +1,218 @@
 {
-    "Project": "IntelliCross",
-    "Firmware": [
-        {
-            "id": "1.64",
-            "url": "IC_TouchFree_v1.64.bin",
-            "checksum": "",
-            "date": "2022-01-04",
-            "description": "Update status display"
-        },
-        {
-            "id": "1.64_hotspot",
-            "url": "IC_TouchFree_v1.64_hotspot.bin",
-            "checksum": "",
-            "date": "2022-01-01",
-            "description": "hotspot working version"
-        },
-        {
-            "id": "1.63",
-            "url": "IC_TouchFree_v1.63.bin",
-            "checksum": "",
-            "date": "2021-12-16",
-            "description": "factory reset"
-        },
-        {
-            "id": "1.63_BLE",
-            "url": "IC_TouchFree_v1.63_BLE.bin",
-            "checksum": "",
-            "date": "2021-12-16",
-            "description": ""
-        },
-        {
-            "id": "1.62x",
-            "url": "IC_TouchFree_v1.62.bin",
-            "checksum": "",
-            "date": "2021-12-15",
-            "description": "Support hotspot connection."
-        },
-        {
-            "id": "1.62_BLE",
-            "url": "IC_TouchFree_v1.62_BLE.bin",
-            "checksum": "",
-            "date": "2021-12-09",
-            "description": "Support hotspot connection."
-        },
-        {
-            "id": "1.61",
-            "url": "IC_TouchFree_v1.61.bin",
-            "checksum": "",
-            "date": "2021-12-08",
-            "description": "Fixed bluetooth issue. Improved user interface."
-        },
-        {
-            "id": "1.6x",
-            "url": "IC_TouchFree_v1.6x.bin",
-            "checksum": "",
-            "date": "2021-02-09"
-        }
-    ],
-    "Filesystem": [
-        {
-            "id": "Pelco UI",
-            "url": "spiffs-demo-novax.bin",
-            "checksum": "",
-            "date": "2022-01-19",
-            "description": "Training Build"
-        },
-        {
-            "id": "DEMO",
-            "url": "spiffs-demo-v1.11-rc24.bin",
-            "checksum": "",
-            "date": "2022-01-07",
-            "description": "for mobile app demo"
-        },
-        {
-            "id": "1.11-rc27",
-            "url": "spiffs-release-v1.11-rc27.bin",
-            "checksum": "",
-            "date": "2021-12-23",
-            "description": "for test"
-        },
-        {
-            "id": "1.11-rc26",
-            "url": "spiffs-release-v1.11-rc26.bin",
-            "checksum": "",
-            "date": "2021-12-22",
-            "description": "one click for the latest"
-        },
-        {
-            "id": "1.11-rc25",
-            "url": "spiffs-release-v1.11-rc25.bin",
-            "checksum": "",
-            "date": "2021-12-20",
-            "description": "compress to 2M size"
-        },
-        {
-            "id": "1.11-rc24",
-            "url": "spiffs-release-v1.11-rc24.bin",
-            "checksum": "",
-            "date": "2021-12-16",
-            "description": "factory reset"
-        },
-        {
-            "id": "1.11-rc23",
-            "url": "spiffs-release-v1.11-rc23.bin",
-            "checksum": "",
-            "date": "2021-12-15",
-            "description": "merge latest frontend"
-        },
-        {
-            "id": "1.11-rc22",
-            "url": "spiffs-release-v1.11-rc22.bin",
-            "checksum": "",
-            "date": "2021-12-13",
-            "description": "OTA upload"
-        },
-        {
-            "id": "1.11-rc21",
-            "url": "spiffs-release-v1.11-rc21.bin",
-            "checksum": "",
-            "date": "2021-12-09",
-            "description": "Fixed minor bug in sound page."
-        },
-        {
-            "id": "1.03",
-            "url": "spiffs_v1.03.bin",
-            "checksum": "",
-            "date": "2021-05-01"
-        }
-    ],
-    "Default_setting": [
-        {
-            "id": "1.62",
-            "url": "IC_TouchFree_v1.62.bin",
-            "checksum": "",
-            "date": "2021-12-15",
-            "description": "Support hotspot connection."
-        },
-        {
-            "id": "1.11-rc23",
-            "url": "spiffs-release-v1.11-rc23.bin",
-            "checksum": "",
-            "date": "2021-12-15",
-            "description": "merge latest frontend"
-        }
-    ],
-    "Button_req": {}
+    "product_1": {
+        "Project": "intellicross",
+        "Firmware": [
+            {
+                "id": "1.64",
+                "url": "IC_TouchFree_v1.64.bin",
+                "checksum": "",
+                "date": "2022-01-04",
+                "description": "Update status display"
+            },
+            {
+                "id": "1.64_hotspot",
+                "url": "IC_TouchFree_v1.64_hotspot.bin",
+                "checksum": "",
+                "date": "2022-01-01",
+                "description": "hotspot working version"
+            },
+            {
+                "id": "1.63",
+                "url": "IC_TouchFree_v1.63.bin",
+                "checksum": "",
+                "date": "2021-12-16",
+                "description": "factory reset"
+            },
+            {
+                "id": "1.63_BLE",
+                "url": "IC_TouchFree_v1.63_BLE.bin",
+                "checksum": "",
+                "date": "2021-12-16",
+                "description": ""
+            },
+            {
+                "id": "1.62x",
+                "url": "IC_TouchFree_v1.62.bin",
+                "checksum": "",
+                "date": "2021-12-15",
+                "description": "Support hotspot connection."
+            },
+            {
+                "id": "1.62_BLE",
+                "url": "IC_TouchFree_v1.62_BLE.bin",
+                "checksum": "",
+                "date": "2021-12-09",
+                "description": "Support hotspot connection."
+            },
+            {
+                "id": "1.61",
+                "url": "IC_TouchFree_v1.61.bin",
+                "checksum": "",
+                "date": "2021-12-08",
+                "description": "Fixed bluetooth issue. Improved user interface."
+            },
+            {
+                "id": "1.6x",
+                "url": "IC_TouchFree_v1.6x.bin",
+                "checksum": "",
+                "date": "2021-02-09"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "Pelco UI",
+                "url": "spiffs-demo-novax.bin",
+                "checksum": "",
+                "date": "2022-01-19",
+                "description": "Training Build"
+            },
+            {
+                "id": "DEMO",
+                "url": "spiffs-demo-v1.11-rc24.bin",
+                "checksum": "",
+                "date": "2022-01-07",
+                "description": "for mobile app demo"
+            },
+            {
+                "id": "1.11-rc27",
+                "url": "spiffs-release-v1.11-rc27.bin",
+                "checksum": "",
+                "date": "2021-12-23",
+                "description": "for test"
+            },
+            {
+                "id": "1.11-rc26",
+                "url": "spiffs-release-v1.11-rc26.bin",
+                "checksum": "",
+                "date": "2021-12-22",
+                "description": "one click for the latest"
+            },
+            {
+                "id": "1.11-rc25",
+                "url": "spiffs-release-v1.11-rc25.bin",
+                "checksum": "",
+                "date": "2021-12-20",
+                "description": "compress to 2M size"
+            },
+            {
+                "id": "1.11-rc24",
+                "url": "spiffs-release-v1.11-rc24.bin",
+                "checksum": "",
+                "date": "2021-12-16",
+                "description": "factory reset"
+            },
+            {
+                "id": "1.11-rc23",
+                "url": "spiffs-release-v1.11-rc23.bin",
+                "checksum": "",
+                "date": "2021-12-15",
+                "description": "merge latest frontend"
+            },
+            {
+                "id": "1.11-rc22",
+                "url": "spiffs-release-v1.11-rc22.bin",
+                "checksum": "",
+                "date": "2021-12-13",
+                "description": "OTA upload"
+            },
+            {
+                "id": "1.11-rc21",
+                "url": "spiffs-release-v1.11-rc21.bin",
+                "checksum": "",
+                "date": "2021-12-09",
+                "description": "Fixed minor bug in sound page."
+            },
+            {
+                "id": "1.03",
+                "url": "spiffs_v1.03.bin",
+                "checksum": "",
+                "date": "2021-05-01"
+            }
+        ],
+        "Default_setting": [
+            {
+                "id": "1.62",
+                "url": "IC_TouchFree_v1.62.bin",
+                "checksum": "",
+                "date": "2021-12-15",
+                "description": "Support hotspot connection."
+            },
+            {
+                "id": "1.11-rc23",
+                "url": "spiffs-release-v1.11-rc23.bin",
+                "checksum": "",
+                "date": "2021-12-15",
+                "description": "merge latest frontend"
+            }
+        ]
+    },
+    "product_2": {
+        "Project": "touchfree-btn",
+        "Firmware": [
+            {
+                "id": "1.64",
+                "url": "IC_TouchFree_v1.64.bin",
+                "checksum": "",
+                "date": "2022-01-04",
+                "description": "Update status display"
+            },
+            {
+                "id": "1.64_hotspot",
+                "url": "IC_TouchFree_v1.64_hotspot.bin",
+                "checksum": "",
+                "date": "2022-01-01",
+                "description": "hotspot working version"
+            },
+            {
+                "id": "1.6x",
+                "url": "IC_TouchFree_v1.6x.bin",
+                "checksum": "",
+                "date": "2021-02-09"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "Pelco UI",
+                "url": "spiffs-demo-novax.bin",
+                "checksum": "",
+                "date": "2022-01-19",
+                "description": "Training Build"
+            },
+            {
+                "id": "DEMO",
+                "url": "spiffs-demo-v1.11-rc24.bin",
+                "checksum": "",
+                "date": "2022-01-07",
+                "description": "for mobile app demo"
+            }
+        ],
+        "Default_setting": [
+            {
+                "id": "1.62",
+                "url": "IC_TouchFree_v1.62.bin",
+                "checksum": "",
+                "date": "2021-12-15",
+                "description": "Support hotspot connection."
+            },
+            {
+                "id": "1.11-rc23",
+                "url": "spiffs-release-v1.11-rc23.bin",
+                "checksum": "",
+                "date": "2021-12-15",
+                "description": "merge latest frontend"
+            }
+        ]
+    },
+    "product_3": {
+        "Project": "ciu-cr",
+        "Firmware": [
+            {
+                "id": "1.64",
+                "url": "IC_TouchFree_v1.64.bin",
+                "checksum": "",
+                "date": "2022-01-04",
+                "description": "Update status display"
+            }
+        ]
+    }
 }

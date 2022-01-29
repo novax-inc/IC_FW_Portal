@@ -1,10 +1,15 @@
 <template>
-  <header>
+  <div id="app">
+    <header>
     <a href="https://novax.com"
       ><img alt="Novax logo" src="./assets/logo.png" style="width: auto; height: 4em;"
     /></a>
   </header>
-  <IntelliCross />
+  <router-link to="/"> Home |</router-link>
+  <router-link to="/products/intellicross"> intellicross |</router-link>
+  <router-link to="/products/touchfree-btn"> touchfree-btn | </router-link>
+  <router-link to="/products/ciu-cr"> ciu-cr</router-link>
+  <router-view />
   <footer>
     <div>
       <h3><small>have questions?...</small>Contact us today</h3>
@@ -14,15 +19,19 @@
     </div>
     <div class="line"></div>
   </footer>
+    
+    
+  </div>
 </template>
 
 <script>
-import IntelliCross from "./components/IntelliCross.vue";
+// import Home from "./components/Home.vue";
 
 export default {
   name: "App",
   components: {
-    IntelliCross,
+    // Products,
+    // Home
   },
 };
 </script>
@@ -37,7 +46,7 @@ export default {
 }
 body {
   margin: 0em;
-  margin-top:5em;
+  margin-top: 5em;
 }
 header {
   background-color: #00718f;
