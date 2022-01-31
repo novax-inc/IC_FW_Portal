@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import vueRouter from 'vue-router'
 import Home from '../components/Home.vue'
-import Products from '../components/Products.vue'
+// import Products from '../components/Products.vue'
 
 const routes =[
     {
@@ -12,18 +11,11 @@ const routes =[
     {
         path :'/products/:id',
         name: 'Products',
-        component : Products
-        // component: ()=>
-        //     import ('../components/Products.vue')
+        // component : Products,
+        component: ()=> import ('../components/Products.vue')
     }
 ]
 export default createRouter({
-    history: createWebHistory(),//'/base/'),
-    routes: routes
+    history: createWebHistory(process.env.BASE_URL),
+    routes
 })
-// const router = vueRouter.createRouter({
-//     history: vueRouter.createWebHashHistory(),
-//     routes
-
-// })
-// export default router

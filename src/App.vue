@@ -1,26 +1,29 @@
 <template>
   <div id="app">
     <header>
-    <a href="https://novax.com"
-      ><img alt="Novax logo" src="./assets/logo.png" style="width: auto; height: 4em;"
-    /></a>
-  </header>
-  <router-link to="/"> Home |</router-link>
-  <router-link to="/products/intellicross"> intellicross |</router-link>
-  <router-link to="/products/touchfree-btn"> touchfree-btn | </router-link>
-  <router-link to="/products/ciu-cr"> ciu-cr</router-link>
-  <router-view />
-  <footer>
-    <div>
-      <h3><small>have questions?...</small>Contact us today</h3>
-      <p>1-866-977-4277 (toll-free)</p>
-      <p>support@novax.com</p>
-      <p>1-604-525-2739</p>
-    </div>
-    <div class="line"></div>
-  </footer>
-    
-    
+      <a href="https://novax.com"
+        ><img
+          alt="Novax logo"
+          src="./assets/logo.png"
+          style="height: 4em"
+      /></a>
+    </header>
+    <body>
+      <router-link to="/">Home</router-link> | 
+      <router-link :to="{name:'Products', params:{ id: 'intellicross'} }">intellicross</router-link> |
+      <router-link to="/products/touchfree-btn">touchfree-btn</router-link> | 
+      <router-link to="/products/ciu-cr">ciu-cr</router-link>
+      <router-view :key="$route.path" />
+    </body>
+    <footer>
+      <div>
+        <h3><small>have questions?...</small>Contact us today</h3>
+        <p>1-866-977-4277 (toll-free)</p>
+        <p>support@novax.com</p>
+        <p>1-604-525-2739</p>
+      </div>
+      <div class="line"></div>
+    </footer>
   </div>
 </template>
 
@@ -53,6 +56,7 @@ header {
   position: fixed;
   top: 0em;
   width: 100%;
+  height: 4em;
 }
 footer {
   background-color: #00718f;
