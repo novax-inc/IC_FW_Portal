@@ -9,10 +9,10 @@
       /></a>
     </header>
     <body>
-      <router-link to="/">Home</router-link> | 
+      <!-- <router-link to="/">Home</router-link> | 
       <router-link :to="{name:'Products', params:{ id: 'intellicross'} }">intellicross</router-link> |
       <router-link to="/products/touchfree-btn">touchfree-btn</router-link> | 
-      <router-link to="/products/ciu-cr">ciu-cr</router-link>
+      <router-link to="/products/ciu-cr">ciu-cr</router-link> -->
       <router-view :key="$route.path" />
     </body>
     <footer>
