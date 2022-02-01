@@ -1,6 +1,6 @@
 {
     "product_1": {"Project": "IntelliCross™",
-        "Title" : "IntelliCross™",
+        "DispName": "IntelliCross™",
         "Firmware": [
             {
                 "id": "1.64",
@@ -134,7 +134,7 @@
                 "id": "Flyer",
                 "url": "Novax Intellicross Flyer_Web.pdf",
                 "date": "2022-01-31",
-                "description": "Novax Intellicross Flyer_Web.pdf"
+                "description": "Novax Intellicross Flyer_Webxx.pdf"
             },
             {
                 "id": "Foldout",
@@ -161,24 +161,6 @@
         ]
     },
     "product_3": {"Project": "DS100 Series APS",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Installation",
@@ -197,24 +179,6 @@
         ]
     },
     "product_4": {"Project": "DS101-DC Series",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "MAN000344-1.0",
@@ -226,24 +190,6 @@
         ]
     },
     "product_5": {"Project": "DS3000 Series APS",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Brochure",
@@ -255,24 +201,6 @@
         ]
     },
     "product_6": {"Project": "eMVPOD™",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Brochure",
@@ -284,24 +212,6 @@
         ]
     },
     "product_7": {"Project": "Fire Hall Signals",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Controller-System",
@@ -320,24 +230,6 @@
         ]
     },
     "product_8": {"Project": "MetroTag™ Transponder",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "201403",
@@ -349,24 +241,6 @@
         ]
     },
     "product_9": {"Project": "Model 401 C, D, R & S",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Brochure",
@@ -378,24 +252,6 @@
         ]
     },
     "product_10": {"Project": "Model 6905™",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Brochure",
@@ -407,24 +263,6 @@
         ]
     },
     "product_11": {"Project": "Models F, B & G",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "2300F-6905",
@@ -457,24 +295,6 @@
         ]
     },
     "product_12": {"Project": "NEMA TS2 Two Phase",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Brochure",
@@ -486,24 +306,6 @@
         ]
     },
     "product_13": {"Project": "Pedestrian Signal Control",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "PXO-II-201403",
@@ -515,24 +317,6 @@
         ]
     },
     "product_14": {"Project": "Series II Controller",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "PXO-II-201403",
@@ -544,24 +328,6 @@
         ]
     },
     "product_15": {"Project": "Standard TouchFree™ Button",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Install Guide",
@@ -573,24 +339,6 @@
         ]
     },
     "product_16": {"Project": "TouchFree Kit for IntelliCross",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Install_Guide",
@@ -602,24 +350,6 @@
         ]
     },
     "product_17": {"Project": "TransPOD™",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
         "Manual": [
             {
                 "id": "Brochure",
@@ -631,24 +361,7 @@
         ]
     },
     "product_18": {"Project": "Type 332 Cabinet",
-        "Firmware": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
-        "Filesystem": [
-            {
-                "id": "xxxx",
-                "url": "xxxx.bin",
-                "checksum": "",
-                "date": "2022-01-31",
-                "description": ""
-            }
-        ],
+        "Firmware": [],
         "Manual": [
             {
                 "id": "332 Cabinet 201403",
