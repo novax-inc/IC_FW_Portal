@@ -1,6 +1,5 @@
 {
-    "product_1": {
-        "Project": "IntelliCross",
+    "product_1": {"Project": "IntelliCross™",
         "Firmware": [
             {
                 "id": "1.64",
@@ -160,65 +159,467 @@
             }
         ]
     },
-    "product_2": {
-        "Project": "Touchfree-Btn",
+    "product_3": {"Project": "DS100 Series APS",
         "Firmware": [
             {
-                "id": "1.64_hotspot",
-                "url": "IC_TouchFree_v1.64_hotspot.bin",
+                "id": "xxxx",
+                "url": "xxxx.bin",
                 "checksum": "",
-                "date": "2022-01-01",
-                "description": "hotspot working version"
-            },
-            {
-                "id": "1.6x",
-                "url": "IC_TouchFree_v1.6x.bin",
-                "checksum": "",
-                "date": "2021-02-09"
+                "date": "2022-01-31",
+                "description": "xxxxx"
             }
         ],
         "Filesystem": [
             {
-                "id": "Pelco UI",
-                "url": "spiffs-demo-novax.bin",
+                "id": "xxxx",
+                "url": "xxxx.bin",
                 "checksum": "",
-                "date": "2022-01-19",
-                "description": "Training Build"
-            },
-            {
-                "id": "DEMO",
-                "url": "spiffs-demo-v1.11-rc24.bin",
-                "checksum": "",
-                "date": "2022-01-07",
-                "description": "for mobile app demo"
+                "date": "2022-01-31",
+                "description": "xxxxx"
             }
         ],
-        "Default_setting": [
+        "Manual": [
             {
-                "id": "1.62",
-                "url": "IC_TouchFree_v1.62.bin",
+                "id": "xxxx",
+                "url": "xxxx.pdf",
                 "checksum": "",
-                "date": "2021-12-15",
-                "description": "Support hotspot connection."
-            },
-            {
-                "id": "1.11-rc23",
-                "url": "spiffs-release-v1.11-rc23.bin",
-                "checksum": "",
-                "date": "2021-12-15",
-                "description": "merge latest frontend"
+                "date": "2022-01-31",
+                "description": "xxxxx"
             }
         ]
     },
-    "product_3": {
-        "Project": "CIU-CR",
+    "product_4": {"Project": "DS101-DC Series",
         "Firmware": [
             {
-                "id": "1.64",
-                "url": "IC_TouchFree_v1.64.bin",
+                "id": "xxxx",
+                "url": "xxxx.bin",
                 "checksum": "",
-                "date": "2022-01-04",
-                "description": "Update status display"
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_5": {"Project": "DS3000 Series APS",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_6": {"Project": "eMVPOD™",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_7": {"Project": "Fire Hall Signals",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_8": {"Project": "MetroTag™ Transponder",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_9": {"Project": "Model 401 C, D, R & S",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_10": {"Project": "Model 6905™",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_11": {"Project": "Models F, B & G",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_12": {"Project": "NEMA TS2 Two Phase",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_13": {"Project": "Pedestrian Signal Control",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_14": {"Project": "Series II Controller",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_15": {"Project": "Standard TouchFree™ Button",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_16": {"Project": "TouchFree Kit for IntelliCross",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_17": {"Project": "TransPOD™",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ]
+    },
+    "product_18": {"Project": "Type 332 Cabinet",
+        "Firmware": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.bin",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
+            }
+        ],
+        "Manual": [
+            {
+                "id": "xxxx",
+                "url": "xxxx.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": "xxxxx"
             }
         ]
     }

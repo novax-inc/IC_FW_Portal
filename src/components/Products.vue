@@ -29,7 +29,7 @@
               {{ record.id }}
             </td>
             <td align="left">
-              <a :href="baseurl + '/Firmware/' + record.url" download>Download</a>
+              <a :href="baseurl + data.Project +'/'+ record.url">Download</a>
             </td>
             <td align="left">{{ record.description }}</td>
           </tr>
@@ -51,7 +51,7 @@
               {{ record.id }}
             </td>
             <td align="left">
-              <a :href="baseurl + '/Filesystem/' + record.url" download>Download</a>
+              <a :href="baseurl + data.Project +'/'+ record.url" download>Download</a>
             </td>
             <td align="left">{{ record.description }}</td>
           </tr>
@@ -73,7 +73,7 @@
               {{ record.id }}
             </td>
             <td align="left">
-              <a :href="baseurl + '/Manual/' + record.url" download>Download</a>
+              <a :href="baseurl + data.Project +'/'+ record.url" download>Download</a>
             </td>
             <td align="left">{{ record.description }}</td>
           </tr>
@@ -109,8 +109,8 @@ export default {
     refresh() {
       for (const idx in this.masterjson) {
         if (
-          this.$route.params.id.toLowerCase() ==
-          this.masterjson[idx].Project.toLowerCase()
+          // this.$route.params.id.toLowerCase() ==
+          this.masterjson[idx].Project.toLowerCase().includes(this.$route.params.id.toLowerCase())
         ) {
           this.data = this.masterjson[idx];
           break;
