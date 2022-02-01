@@ -93,7 +93,7 @@ export default {
       masterjson,
       data: {},
       baseurl:
-        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/",
+        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
     };
   },
   // watch: {
