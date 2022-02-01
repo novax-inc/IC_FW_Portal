@@ -1,5 +1,5 @@
 {
-    "product_1": {"Project": "IntelliCross",
+    "product_1": {"Project": "IntelliCross™",
         "Title" : "IntelliCross™",
         "Firmware": [
             {
@@ -167,7 +167,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -176,16 +176,23 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Installation",
+                "url": "MAN000003-2.0 (DS100 Insttallation Manual).pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
+            },
+            {
+                "id": "Brochure",
+                "url": "Novax DS100 Brochure.pdf",
+                "checksum": "",
+                "date": "2013-10-10",
+                "description": ""
             }
         ]
     },
@@ -196,7 +203,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -205,16 +212,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "MAN000344-1.0",
+                "url": "MAN000344-1.0 (DS101 EVTR-1040 Train Crossing Audible Warning Signal Instl Mnl).pdf",
                 "checksum": "",
-                "date": "2022-01-31",
-                "description": "xxxxx"
+                "date": "2021-07-15",
+                "description": ""
             }
         ]
     },
@@ -225,7 +232,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -234,16 +241,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Brochure",
+                "url": "DS3000_Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -254,7 +261,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -263,16 +270,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "Transpod",
+                "id": "Brochure",
                 "url": "Novax Transpod Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -283,7 +290,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -292,16 +299,23 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Controller-System",
+                "url": "Fire-Hall-Controller-System.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
+            },
+            {
+                "id": "Brochure",
+                "url": "Firehall-Signal-System-Brochure.pdf",
+                "checksum": "",
+                "date": "2022-01-31",
+                "description": ""
             }
         ]
     },
@@ -312,7 +326,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -321,16 +335,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "201403",
+                "url": "Novax-MetroTag-201403.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -341,7 +355,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -350,16 +364,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Brochure",
+                "url": "DOC000364-1.0 (Mdl 401 FTMS Cabinet Brochure).pdf",
                 "checksum": "",
-                "date": "2022-01-31",
-                "description": "xxxxx"
+                "date": "2021-09-14",
+                "description": ""
             }
         ]
     },
@@ -370,7 +384,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -379,16 +393,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Brochure",
+                "url": "Novax Model 6905 Traffic Controller Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -399,7 +413,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -408,16 +422,37 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "2300F-6905",
+                "url": "2300F-6905.pdf",
                 "checksum": "",
-                "date": "2022-01-31",
-                "description": "xxxxx"
+                "date": "2021-10-26",
+                "description": ""
+            },
+            {
+                "id": "B Cabinet 201403",
+                "url": "B Cabinet 201403.pdf",
+                "checksum": "",
+                "date": "2014-03-04",
+                "description": ""
+            },
+            {
+                "id": "F Cabinet 201403",
+                "url": "F Cabinet 201403.pdf",
+                "checksum": "",
+                "date": "2014-03-04",
+                "description": ""
+            },
+            {
+                "id": "G Cabinet 201403",
+                "url": "G Cabinet 201403.pdf",
+                "checksum": "",
+                "date": "2014-03-04",
+                "description": ""
             }
         ]
     },
@@ -428,7 +463,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -437,16 +472,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Brochure",
+                "url": "Novax NEMA TS2 Two Phase Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -457,7 +492,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -466,16 +501,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "PXO-II-201403",
+                "url": "Novax-PXO-II-201403.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -486,7 +521,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -495,16 +530,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "PXO-II-201403",
+                "url": "Novax-PXO-II-201403.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -515,7 +550,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -524,16 +559,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Install Guide",
+                "url": "DOC00346-1.4 Novax TF Btn Install Guide.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -544,7 +579,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -553,16 +588,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Install_Guide",
+                "url": "DOC000325-1.9_IntelliCross Touch-Free + Wi-Fi_Install_Guide.pdf",
                 "checksum": "",
-                "date": "2022-01-31",
-                "description": "xxxxx"
+                "date": "2022-01-27",
+                "description": ""
             }
         ]
     },
@@ -573,7 +608,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -582,16 +617,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "Brochure",
+                "url": "Novax Transpod Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ]
     },
@@ -602,7 +637,7 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Filesystem": [
@@ -611,16 +646,16 @@
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": "xxxxx"
+                "description": ""
             }
         ],
         "Manual": [
             {
-                "id": "xxxx",
-                "url": "xxxx.pdf",
+                "id": "332 Cabinet 201403",
+                "url": "332 Cabinet 201403.pdf",
                 "checksum": "",
-                "date": "2022-01-31",
-                "description": "xxxxx"
+                "date": "2014-03-04",
+                "description": ""
             }
         ]
     }
