@@ -1,5 +1,6 @@
 {
-    "product_1": {"Project": "IntelliCross™",
+    "product_1": {"Project": "IntelliCross",
+        "Title" : "IntelliCross™",
         "Firmware": [
             {
                 "id": "1.64",
