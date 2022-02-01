@@ -633,7 +633,7 @@
     "product_18": {"Project": "Type 332 Cabinet",
         "Firmware": [
             {
-                "id": "xxxx",
+                "id": "test",
                 "url": "xxxx.bin",
                 "checksum": "",
                 "date": "2022-01-31",
