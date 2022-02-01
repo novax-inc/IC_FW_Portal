@@ -93,7 +93,8 @@ export default {
       masterjson,
       data: {},
       baseurl:
-        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
+      "../../Product_Info/"
+        // "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
     };
   },
   // watch: {
@@ -107,6 +108,8 @@ export default {
   },
   methods: {
     refresh() {
+      console.log(this.$route.params.id)
+
       for (const idx in this.masterjson) {
         if (
           // this.$route.params.id.toLowerCase() ==
