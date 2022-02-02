@@ -1,7 +1,7 @@
 <template>
   <!-- paginated -->
   <!-- per-page="8" -->
-  <div class="container">
+  <div class="box">
     <b-table
       :data="infolist"
       ref="table"
@@ -11,11 +11,11 @@
       @details-open="(row) => $buefy.toast.open(`Expanded ${row.url}`)"
       :show-detail-icon="showDetailIcon"
     >
-      <b-table-column field="id" label="ID" width="40" numeric v-slot="props">
+      <b-table-column field="id" label="ID" numeric v-slot="props">
         {{ props.row.id }}
       </b-table-column>
 
-      <b-table-column field="id" label="Name" centered sortable v-slot="props">
+      <b-table-column field="id" label="Name" centered v-slot="props">
         <template v-if="showDetailIcon">
           {{ props.row.url }}
         </template>
@@ -26,13 +26,7 @@
         </template>
       </b-table-column>
 
-      <b-table-column
-        field="date"
-        label="Date"
-        sortable
-        centered
-        v-slot="props"
-      >
+      <b-table-column field="date" label="Date" centered v-slot="props">
         <span class="tag is-success">
           {{ new Date(props.row.date).toLocaleDateString() }}
         </span>
@@ -85,7 +79,7 @@ export default {
   methods: {
     downloadurl(fileurl) {
       // console.log(fileurl);
-      this.$emit('download_file',fileurl)
+      this.$emit("download_file", fileurl);
     },
   },
 };

@@ -9,24 +9,28 @@
         <a><img width="100" src="../assets/apple.png" /></a>
       </div>
 
-      <div class="panel" id="manualBox" v-show="data.Manual && data.Manual != ''">
-        <h2 class="panel-heading is-primary">Manual</h2>
+      <div class="columns">
         <div class="column">
+          <div class="panel" v-show="data.Manual && data.Manual != ''">
+        <h2 class="panel-heading is-primary">Manual</h2>
           <Tableblock :infolist="data.Manual" @download_file="download"/>
         </div>
+      </div>
       </div>
 
       <div class="columns">
         <div class="column">
         <div class="panel is-success" v-show="data.Firmware && data.Firmware != ''">
           <h2 class="panel-heading">Firmware</h2>
-            <Tableblock :infolist="data.Firmware" />
+          <!-- <div class="box"> -->
+            <Tableblock :infolist="data.Firmware" @download_file="download" />
+          <!-- </div> -->
           </div>
         </div>
         <div class="column">
         <div class="panel is-warning" v-show="data.Filesystem && data.Filesystem != ''">
           <h2 class="panel-heading">Filesystem</h2>
-            <Tableblock :infolist="data.Filesystem" />
+            <Tableblock :infolist="data.Filesystem" @download_file="download"/>
           </div>
         </div>
         </div>
@@ -83,11 +87,6 @@ export default {
 </script>
 
 <style scoped>
-.manualBox {
-  width: min(60%, 600px);
-  /* display: inline-flex;
-  justify-content: center; */
-}
 .is-primary{
    /* background-color: #00718f; */
    background-color: #fcac00;
