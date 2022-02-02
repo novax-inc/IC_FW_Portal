@@ -1,6 +1,7 @@
 <template>
   <!-- paginated -->
   <!-- per-page="8" -->
+  <!-- narrowed -->
   <div class="box">
     <b-table
       :data="infolist"
@@ -8,7 +9,6 @@
       :opened-detailed="defaultOpenedDetails"
       detailed
       detail-key="id"
-      @details-open="(row) => $buefy.toast.open(`Expanded ${row.url}`)"
       :show-detail-icon="showDetailIcon"
     >
       <b-table-column field="id" label="ID" numeric v-slot="props">

@@ -28,10 +28,6 @@
 <script>
 export default {
   name: "App",
-  components: {
-    // Products,
-    // Home
-  },
 };
 </script>
 
@@ -46,7 +42,6 @@ export default {
 header {
   background-color: #00718f;
   top: 0em;
-  width: 100%;
 }
 footer {
   background-color: #00718f;
