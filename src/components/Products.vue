@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <div class="section">
     <div class="container">
       <h1 class="title">{{ data.Project }}</h1>
       <div v-show="data.Project.toLowerCase().includes('intellicross')">

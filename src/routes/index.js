@@ -16,9 +16,7 @@ const routes =[
     }
 ]
 const router = new VueRouter({
-    // history: createWebHistory(process.env.BASE_URL),
-    // history: createWebHashHistory('/products/'),
-    mode: 'history',
+    // mode: 'history',
     routes
 })
 
