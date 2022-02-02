@@ -10,49 +10,49 @@
                 "description": "Update status display"
             },
             {
-                "id": "1.64_hotspot",
+                "id": "1.63",
                 "url": "IC_TouchFree_v1.64_hotspot.bin",
                 "checksum": "",
                 "date": "2022-01-01",
                 "description": "hotspot working version"
             },
             {
-                "id": "1.63",
+                "id": "1.62",
                 "url": "IC_TouchFree_v1.63.bin",
                 "checksum": "",
                 "date": "2021-12-16",
                 "description": "factory reset"
             },
             {
-                "id": "1.63_BLE",
+                "id": "1.61",
                 "url": "IC_TouchFree_v1.63_BLE.bin",
                 "checksum": "",
                 "date": "2021-12-16",
                 "description": ""
             },
             {
-                "id": "1.62x",
+                "id": "1.61_Beta",
                 "url": "IC_TouchFree_v1.62.bin",
                 "checksum": "",
                 "date": "2021-12-15",
                 "description": "Support hotspot connection."
             },
             {
-                "id": "1.62_BLE",
+                "id": "1.60",
                 "url": "IC_TouchFree_v1.62_BLE.bin",
                 "checksum": "",
                 "date": "2021-12-09",
                 "description": "Support hotspot connection."
             },
             {
-                "id": "1.61",
+                "id": "1.59",
                 "url": "IC_TouchFree_v1.61.bin",
                 "checksum": "",
                 "date": "2021-12-08",
                 "description": "Fixed bluetooth issue. Improved user interface."
             },
             {
-                "id": "1.6x",
+                "id": "1.58",
                 "url": "IC_TouchFree_v1.6x.bin",
                 "checksum": "",
                 "date": "2021-02-09"
@@ -361,7 +361,15 @@
         ]
     },
     "product_18": {"Project": "Type 332 Cabinet",
-        "Firmware": [],
+        "Firmware": [
+            {
+                "id": "1.64",
+                "url": "IC_TouchFree_v1.64.bin",
+                "checksum": "",
+                "date": "2022-01-04",
+                "description": "Update status display"
+            }
+        ],
         "Manual": [
             {
                 "id": "332 Cabinet 201403",
