@@ -37,7 +37,7 @@
 
 <script>
 import masterjson from "../../master.json";
-const data = require("../assets/sample.json");
+// const data = require("../assets/sample.json");
 
 import Tableblock from "./Tableblock.vue";
 
@@ -49,7 +49,7 @@ export default {
   data() {
     return {
       masterjson,
-      data,
+      data:{},
       baseURL:
         "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
     };
