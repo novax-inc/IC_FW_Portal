@@ -68,7 +68,7 @@
         "Filesystem": [
             {
                 "id": "Pelco UI",
-                "url": "spiffs-demo-novax.bin",
+                "url": "spiffs-demo-novax-hotspot.bin",
                 "checksum": "",
                 "date": "2022-01-19",
                 "description": "Training Build"
