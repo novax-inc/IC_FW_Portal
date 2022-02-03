@@ -3,6 +3,13 @@
         "DispName": "IntelliCross™",
         "Firmware": [
             {
+                "id": "1.65",
+                "url": "IC_TouchFree_v1.64.bin",
+                "checksum": "",
+                "date": "2022-02-03",
+                "description": "For upload test"
+            },
+            {
                 "id": "1.64",
                 "url": "IC_TouchFree_v1.64.bin",
                 "checksum": "",

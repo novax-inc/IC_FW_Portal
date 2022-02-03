@@ -2,39 +2,36 @@
   <div class="section">
     <div class="container">
       <h1 class="title">{{ data.Project }}</h1>
-      <div v-show="data.Project.toLowerCase().includes('intellicross')">
-        <a href="./IntelliCross254.apk"
-          ><img width="100" src="../assets/android.png"
+      <div class="box" v-show="data.Project.toLowerCase().includes('intellicross')">
+        <a href="../../IntelliCross254.apk" download
+          ><img width="130" src="../assets/android.png"
         /></a>
-        <a><img width="100" src="../assets/apple.png" /></a>
+        <a><img width="130" src="../assets/apple.png" /></a>
       </div>
 
       <div class="columns">
-        <div class="column">
-          <div class="panel" v-show="data.Manual && data.Manual != ''">
-        <h2 class="panel-heading is-primary">Manual</h2>
-          <Tableblock :infolist="data.Manual" @download_file="download"/>
+        <div class="column" v-show="data.Manual && data.Manual != ''">
+          <div class="panel" >
+            <h2 class="panel-heading is-primary" >Manual</h2>
+            <Tableblock :infolist="data.Manual" @download_file="download" />
+          </div>
         </div>
-      </div>
       </div>
 
       <div class="columns">
         <div class="column" v-show="data.Firmware && data.Firmware != ''">
-        <div class="panel is-success">
-          <h2 class="panel-heading">Firmware</h2>
-          <!-- <div class="box"> -->
+          <div class="panel">
+            <h2 class="panel-heading">Firmware</h2>
             <Tableblock :infolist="data.Firmware" @download_file="download" />
-          <!-- </div> -->
           </div>
         </div>
         <div class="column" v-show="data.Filesystem && data.Filesystem != ''">
-        <div class="panel is-warning" >
-          <h2 class="panel-heading">Filesystem</h2>
-            <Tableblock :infolist="data.Filesystem" @download_file="download"/>
+          <div class="panel">
+            <h2 class="panel-heading">Filesystem</h2>
+            <Tableblock :infolist="data.Filesystem" @download_file="download" />
           </div>
         </div>
-        </div>
-
+      </div>
     </div>
   </div>
 </template>
@@ -53,7 +50,7 @@ export default {
   data() {
     return {
       masterjson,
-      data:{},
+      data: {},
       baseURL:
         "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
     };
@@ -62,9 +59,9 @@ export default {
     this.refresh();
   },
   methods: {
-    download(fileURL){
-      let url = this.baseURL + this.data.Project +'/'+fileURL;
-      console.log(url)
+    download(fileURL) {
+      let url = this.baseURL + this.data.Project + "/" + fileURL;
+      console.log(url);
       window.location.href = url;
     },
     refresh() {
@@ -87,9 +84,12 @@ export default {
 </script>
 
 <style scoped>
-.is-primary{
-   /* background-color: #00718f; */
-   background-color: #fcac00;
-   color: #fff;
- }
+.is-primary {
+  /* background-color: #00718f; */
+  /* background-color: #fcac00;
+  color: #fff; */
+}
+.panel-heading{
+  background-color: #fff;
+}
 </style>

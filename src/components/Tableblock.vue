@@ -11,11 +11,8 @@
       detail-key="id"
       :show-detail-icon="showDetailIcon"
     >
-      <b-table-column field="id" label="ID" width="120px" numeric v-slot="props">
-        {{ props.row.id }}
-      </b-table-column>
-
-      <b-table-column field="id" label="Name" centered v-slot="props">
+      
+      <b-table-column field="name" label="Name" centered v-slot="props">
         <template v-if="showDetailIcon">
           {{ props.row.url }}
         </template>
@@ -32,10 +29,8 @@
         </span>
       </b-table-column>
 
-      <b-table-column v-slot="props">
-        <span>
-          <b-button @click="downloadurl(props.row.url)"> Download </b-button>
-        </span>
+      <b-table-column field="id"  numeric v-slot="props">
+        <b-button icon-left="tray-arrow-down" @click="downloadurl(props.row.url)"> {{ props.row.id }} </b-button>
       </b-table-column>
 
       <template #detail="props">
@@ -62,6 +57,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Tableblock",
   props: ["infolist"],
@@ -70,6 +66,8 @@ export default {
       defaultOpenedDetails: [1],
       showDetailIcon: false,
     };
+  },
+  component:{
   },
   watch: {
     // "infolist": function (list) {
