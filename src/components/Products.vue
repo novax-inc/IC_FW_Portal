@@ -19,16 +19,16 @@
       </div>
 
       <div class="columns">
-        <div class="column">
-        <div class="panel is-success" v-show="data.Firmware && data.Firmware != ''">
+        <div class="column" v-show="data.Firmware && data.Firmware != ''">
+        <div class="panel is-success">
           <h2 class="panel-heading">Firmware</h2>
           <!-- <div class="box"> -->
             <Tableblock :infolist="data.Firmware" @download_file="download" />
           <!-- </div> -->
           </div>
         </div>
-        <div class="column">
-        <div class="panel is-warning" v-show="data.Filesystem && data.Filesystem != ''">
+        <div class="column" v-show="data.Filesystem && data.Filesystem != ''">
+        <div class="panel is-warning" >
           <h2 class="panel-heading">Filesystem</h2>
             <Tableblock :infolist="data.Filesystem" @download_file="download"/>
           </div>

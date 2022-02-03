@@ -11,7 +11,7 @@
       detail-key="id"
       :show-detail-icon="showDetailIcon"
     >
-      <b-table-column field="id" label="ID" numeric v-slot="props">
+      <b-table-column field="id" label="ID" width="120px" numeric v-slot="props">
         {{ props.row.id }}
       </b-table-column>
 
