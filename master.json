@@ -1,5 +1,6 @@
 {
     "product_1": {"Project": "IntelliCross™",
+        "Category": "cabinet",
         "DispName": "IntelliCross™",
         "Firmware": [
             {
@@ -168,6 +169,7 @@
         ]
     },
     "product_3": {"Project": "DS100 Series APS",
+        "Category": "pedestrian",
         "Manual": [
             {
                 "id": "Installation",
@@ -186,6 +188,7 @@
         ]
     },
     "product_4": {"Project": "DS101-DC Series",
+        "Category": "pedestrian",
         "Manual": [
             {
                 "id": "MAN000344-1.0",
@@ -197,6 +200,7 @@
         ]
     },
     "product_5": {"Project": "DS3000 Series APS",
+        "Category": "pedestrian",
         "Manual": [
             {
                 "id": "Brochure",
@@ -208,6 +212,7 @@
         ]
     },
     "product_6": {"Project": "eMVPOD™",
+        "Category": "priority",
         "Manual": [
             {
                 "id": "Brochure",
@@ -219,6 +224,7 @@
         ]
     },
     "product_7": {"Project": "Fire Hall Signals",
+        "Category": "priority",
         "Manual": [
             {
                 "id": "Controller-System",
@@ -237,6 +243,7 @@
         ]
     },
     "product_8": {"Project": "MetroTag™ Transponder",
+        "Category": "priority",
         "Manual": [
             {
                 "id": "201403",
@@ -248,6 +255,7 @@
         ]
     },
     "product_9": {"Project": "Model 401 C, D, R & S",
+        "Category": "cabinet",
         "Manual": [
             {
                 "id": "Brochure",
@@ -259,6 +267,7 @@
         ]
     },
     "product_10": {"Project": "Model 6905™",
+        "Category": "cabinet",
         "Manual": [
             {
                 "id": "Brochure",
@@ -302,6 +311,7 @@
         ]
     },
     "product_12": {"Project": "NEMA TS2 Two Phase",
+        "Category": "cabinet",
         "Manual": [
             {
                 "id": "Brochure",
@@ -313,6 +323,7 @@
         ]
     },
     "product_13": {"Project": "Pedestrian Signal Control",
+        "Category": "pedestrian",
         "Manual": [
             {
                 "id": "PXO-II-201403",
@@ -335,6 +346,7 @@
         ]
     },
     "product_15": {"Project": "Standard TouchFree™ Button",
+        "Category": "pedestrian",
         "Manual": [
             {
                 "id": "Install Guide",
@@ -346,6 +358,7 @@
         ]
     },
     "product_16": {"Project": "TouchFree Kit for IntelliCross",
+        "Category": "pedestrian", 
         "Manual": [
             {
                 "id": "Install_Guide",
@@ -357,6 +370,7 @@
         ]
     },
     "product_17": {"Project": "TransPOD™",
+        "Category": "priority",
         "Manual": [
             {
                 "id": "Brochure",
@@ -368,6 +382,7 @@
         ]
     },
     "product_18": {"Project": "Type 332 Cabinet",
+        "Category": "cabinet",
         "Firmware": [
             {
                 "id": "1.64",

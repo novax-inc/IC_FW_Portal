@@ -1,19 +1,26 @@
 import Vue from "vue"
 import VueRouter from 'vue-router'
 import Home from '../components/Home.vue'
+import Category from '../components/Category.vue'
 
 Vue.use(VueRouter)
 
-const routes =[
+const routes = [
     {
-        path :'/',
+        path: '/',
         name: 'Home',
         component: Home
     },
     {
-        path :'/products/:id',
+        path: '/category',
+        name: 'Category',
+        component: Category,
+        props: true
+    },
+    {
+        path: '/products/:id',
         name: 'Products',
-        component: ()=> import ('../components/Products.vue')
+        component: () => import('../components/Products.vue')
     }
 ]
 const router = new VueRouter({

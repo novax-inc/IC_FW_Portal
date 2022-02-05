@@ -2,25 +2,23 @@
   <div id="app">
     <header>
       <a href="https://novax.com"
-        ><img alt="Novax logo" src="./assets/logo.png"
+        ><img alt="Novax logo" width="120px" src="./assets/logo.png"
       /></a>
+
+      <div>
+        <b-button icon-left="home-remove" @click="$router.push('/')"></b-button>
+      </div>
     </header>
 
-    <router-link to="/">Home</router-link> |
-    <router-link :to="{ name: 'Products', params: { id: 'intellicross' } }"
-      >intellicross</router-link
-    >
-    | <router-link to="/products/332">332</router-link> |
-    <router-link to="/products/ds100">DS100</router-link>
     <router-view :key="$route.path" />
 
     <div class="footer">
-      <!-- <footer> -->
-      <p class="subtitle is-5"><small>have questions?</small>...Contact us today</p>
+      <p class="subtitle is-5">
+        <small>have questions?</small>...Contact us today
+      </p>
       <p>1-866-977-4277 (toll-free)</p>
       <p>support@novax.com</p>
       <p>1-604-525-2739</p>
-      <!-- </footer> -->
     </div>
   </div>
 </template>
@@ -42,12 +40,13 @@ export default {
 header {
   background-color: #00718f;
   top: 0em;
+  height: 50px;
 }
-footer {
+/* footer {
   background-color: #00718f;
   color: whitesmoke;
 }
 footer p {
   margin: 0.3em;
-}
+} */
 </style>

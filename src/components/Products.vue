@@ -1,8 +1,14 @@
 <template>
   <div class="section">
     <div class="container">
-      <h1 class="title">{{ data.Project }}</h1>
-      <div class="box" v-show="data.Project.toLowerCase().includes('intellicross')">
+      <h1 class="title">{{ prodData.Project }}</h1>
+      <div
+        class="box"
+        v-show="
+          prodData.Project &&
+          prodData.Project.toLowerCase().includes('intellicross')
+        "
+      >
         <a href="../../IntelliCross254.apk" download
           ><img width="130" src="../assets/android.png"
         /></a>
@@ -10,25 +16,40 @@
       </div>
 
       <div class="columns">
-        <div class="column" v-show="data.Manual && data.Manual != ''">
-          <div class="panel" >
-            <h2 class="panel-heading is-primary" >Manual</h2>
-            <Tableblock :infolist="data.Manual" @download_file="download" />
+        <div class="column" v-show="prodData.Manual && prodData.Manual != ''">
+          <div class="panel">
+            <h2 class="panel-heading is-primary">Manual</h2>
+            <Tableblock
+              :infolist="prodData.Manual"
+              @download_file="downloadfn"
+            />
           </div>
         </div>
       </div>
 
       <div class="columns">
-        <div class="column" v-show="data.Firmware && data.Firmware != ''">
+        <div
+          class="column"
+          v-show="prodData.Firmware && prodData.Firmware != ''"
+        >
           <div class="panel">
             <h2 class="panel-heading">Firmware</h2>
-            <Tableblock :infolist="data.Firmware" @download_file="download" />
+            <Tableblock
+              :infolist="prodData.Firmware"
+              @download_file="downloadfn"
+            />
           </div>
         </div>
-        <div class="column" v-show="data.Filesystem && data.Filesystem != ''">
+        <div
+          class="column"
+          v-show="prodData.Filesystem && prodData.Filesystem != ''"
+        >
           <div class="panel">
             <h2 class="panel-heading">Filesystem</h2>
-            <Tableblock :infolist="data.Filesystem" @download_file="download" />
+            <Tableblock
+              :infolist="prodData.Filesystem"
+              @download_file="downloadfn"
+            />
           </div>
         </div>
       </div>
@@ -37,9 +58,6 @@
 </template>
 
 <script>
-import masterjson from "../../master.json";
-// const data = require("../assets/sample.json");
-
 import Tableblock from "./Tableblock.vue";
 
 export default {
@@ -49,47 +67,25 @@ export default {
   },
   data() {
     return {
-      masterjson,
-      data: {},
-      baseURL:
-        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
+      prodData: {},
     };
   },
-  created() {
-    this.refresh();
+  mounted() {
+    console.log(this.$route.params.id);
+    this.prodData = this.$route.params.data;
   },
   methods: {
-    download(fileURL) {
-      let url = this.baseURL + this.data.Project + "/" + fileURL;
+    downloadfn(fileURL) {
+      let url = this.baseURL + this.prodData.Project + "/" + fileURL;
       console.log(url);
       window.location.href = url;
-    },
-    refresh() {
-      console.log(this.$route.params.id);
-
-      for (const idx in this.masterjson) {
-        if (
-          this.masterjson[idx].Project.toLowerCase().includes(
-            this.$route.params.id.toLowerCase()
-          )
-        ) {
-          this.data = this.masterjson[idx];
-          // console.log(JSON.stringify(this.data));
-          break;
-        }
-      }
     },
   },
 };
 </script>
 
 <style scoped>
-.is-primary {
-  /* background-color: #00718f; */
-  /* background-color: #fcac00;
-  color: #fff; */
-}
-.panel-heading{
+.panel-heading {
   background-color: #fff;
 }
 </style>
