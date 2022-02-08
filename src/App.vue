@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <div class="header">
-      <img id="logo" alt="Novax logo" src="./assets/logo.png" @click="$router.push('/')"
+      <img id="logo" alt="Novax logo" src="./assets/logo.png" />
+      <img
+        id="homeicon"
+        src="./assets/home.svg"
+        alt="Home icon"
+        @click="$router.push('/')"
       />
-      <!-- <div class="tollfree">
-      <b-button>Toll Free</b-button>
-      </div> -->
     </div>
 
     <div class="container">
@@ -37,13 +39,18 @@ export default {
 }
 .header {
   background-color: #00718f;
-  height: 60px;
+  /* height: 60px; */
+  /* text-align: right; */
+  /* display:flex; */
 }
-#logo{
+#logo {
   width: 140px;
 }
-.tollfree{
-  width: 400px;
-  height: 15px;
+#homeicon {
+  width: 30px;
+  position: absolute;
+  right: 10%;
+  top: 0.7rem;
+  filter: invert(100%);
 }
 </style>

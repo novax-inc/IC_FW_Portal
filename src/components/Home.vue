@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="section">
     <h1 class="title">Product Categories</h1>
     <h2 class="subtitle">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim cumque eius sit?
@@ -161,8 +161,8 @@ export default {
 .content {
   width: 90%;
 }
-.container {
-  padding-top: 1rem;
+.section {
+  padding: 1rem;
 }
 .searchBar {
   /* position: sticky;
