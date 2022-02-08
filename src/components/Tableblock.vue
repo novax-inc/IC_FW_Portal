@@ -72,7 +72,7 @@ export default {
   },
   methods: {
     downloadurl(fileurl) {
-      // console.log(fileurl);
+      console.log(fileurl);
       this.$emit("download_file", fileurl);
     },
   },

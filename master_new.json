@@ -1,5 +1,5 @@
-{
-    "product_1": {"Project": "IntelliCross™",
+[
+    {"Project": "IntelliCross™",
         "Category": "cabinet",
         "DispName": "IntelliCross™",
         "Firmware": [
@@ -168,7 +168,7 @@
             }
         ]
     },
-    "product_3": {"Project": "DS100 Series APS",
+    {"Project": "DS100 Series APS",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -187,7 +187,7 @@
             }
         ]
     },
-    "product_4": {"Project": "DS101-DC Series",
+    {"Project": "DS101-DC Series",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -199,7 +199,7 @@
             }
         ]
     },
-    "product_5": {"Project": "DS3000 Series APS",
+    {"Project": "DS3000 Series APS",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -211,7 +211,7 @@
             }
         ]
     },
-    "product_6": {"Project": "eMVPOD™",
+    {"Project": "eMVPOD™",
         "Category": "priority",
         "Manual": [
             {
@@ -223,7 +223,7 @@
             }
         ]
     },
-    "product_7": {"Project": "Fire Hall Signals",
+    {"Project": "Fire Hall Signals",
         "Category": "priority",
         "Manual": [
             {
@@ -242,7 +242,7 @@
             }
         ]
     },
-    "product_8": {"Project": "MetroTag™ Transponder",
+    {"Project": "MetroTag™ Transponder",
         "Category": "priority",
         "Manual": [
             {
@@ -254,7 +254,7 @@
             }
         ]
     },
-    "product_9": {"Project": "Model 401 C, D, R & S",
+    {"Project": "Model 401 C, D, R & S",
         "Category": "cabinet",
         "Manual": [
             {
@@ -266,7 +266,7 @@
             }
         ]
     },
-    "product_10": {"Project": "Model 6905™",
+    {"Project": "Model 6905™",
         "Category": "cabinet",
         "Manual": [
             {
@@ -278,7 +278,7 @@
             }
         ]
     },
-    "product_11": {"Project": "Models F, B & G",
+    {"Project": "Models F, B & G",
         "Manual": [
             {
                 "id": "2300F-6905",
@@ -310,7 +310,7 @@
             }
         ]
     },
-    "product_12": {"Project": "NEMA TS2 Two Phase",
+    {"Project": "NEMA TS2 Two Phase",
         "Category": "cabinet",
         "Manual": [
             {
@@ -322,7 +322,7 @@
             }
         ]
     },
-    "product_13": {"Project": "Pedestrian Signal Control",
+    {"Project": "Pedestrian Signal Control",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -334,7 +334,7 @@
             }
         ]
     },
-    "product_14": {"Project": "Series II Controller",
+    {"Project": "Series II Controller",
         "Manual": [
             {
                 "id": "PXO-II-201403",
@@ -345,7 +345,7 @@
             }
         ]
     },
-    "product_15": {"Project": "Standard TouchFree™ Button",
+    {"Project": "Standard TouchFree™ Button",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -357,7 +357,7 @@
             }
         ]
     },
-    "product_16": {"Project": "TouchFree Kit for IntelliCross",
+    {"Project": "TouchFree Kit for IntelliCross",
         "Category": "pedestrian", 
         "Manual": [
             {
@@ -369,7 +369,7 @@
             }
         ]
     },
-    "product_17": {"Project": "TransPOD™",
+    {"Project": "TransPOD™",
         "Category": "priority",
         "Manual": [
             {
@@ -381,7 +381,7 @@
             }
         ]
     },
-    "product_18": {"Project": "Type 332 Cabinet",
+    {"Project": "Type 332 Cabinet",
         "Category": "cabinet",
         "Firmware": [
             {
@@ -402,4 +402,4 @@
             }
         ]
     }
-}
+]

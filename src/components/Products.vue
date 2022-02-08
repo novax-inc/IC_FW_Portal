@@ -68,10 +68,12 @@ export default {
   data() {
     return {
       prodData: {},
+      baseURL:
+        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
     };
   },
   mounted() {
-    console.log(this.$route.params.id);
+    console.log(this.$route.params.data.Project);
     this.prodData = this.$route.params.data;
   },
   methods: {
