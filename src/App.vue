@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <img alt="Novax logo" width="140px" src="./assets/logo.png" @click="$router.push('/')"
+      <img id="logo" alt="Novax logo" src="./assets/logo.png" @click="$router.push('/')"
       />
       <!-- <div class="tollfree">
       <b-button>Toll Free</b-button>
@@ -38,16 +38,12 @@ export default {
 .header {
   background-color: #00718f;
   height: 60px;
-  /* position: sticky; */
-  top: 0;
 }
-.container {
-  /* margin-top: 50px; */
-  /* z-index: -1; */
+#logo{
+  width: 140px;
 }
 .tollfree{
   width: 400px;
   height: 15px;
-  /* Button:#fcac00; */
 }
 </style>

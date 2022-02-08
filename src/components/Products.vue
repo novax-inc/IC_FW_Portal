@@ -3,7 +3,6 @@
     <div class="container">
       <h1 class="title">{{ prodData.Project }}</h1>
       <div
-        class="box"
         v-show="
           prodData.Project &&
           prodData.Project.toLowerCase().includes('intellicross')
