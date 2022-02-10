@@ -1,10 +1,9 @@
 [
     {"Project": "IntelliCross™",
         "Category": "cabinet",
-        "DispName": "IntelliCross™",
         "Firmware": [
             {
-                "id": "1.65",
+                "id": "",
                 "url": "IC_TouchFree_v1.64.bin",
                 "checksum": "",
                 "date": "2022-02-03",
@@ -142,7 +141,7 @@
                 "id": "Flyer",
                 "url": "Novax Intellicross Flyer_Web.pdf",
                 "date": "2022-01-31",
-                "description": "Novax Intellicross Flyer_Webxx.pdf"
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim cumque eius sit?"
             },
             {
                 "id": "Foldout",
@@ -215,7 +214,7 @@
         "Category": "priority",
         "Manual": [
             {
-                "id": "Brochure",
+                "id": "",
                 "url": "Novax Transpod Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",

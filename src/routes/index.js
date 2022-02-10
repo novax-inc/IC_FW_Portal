@@ -20,6 +20,7 @@ const routes = [
     {
         path: '/products/:id',
         name: 'Products',
+        // props: true,
         component: () => import('../components/Products.vue')
     }
 ]

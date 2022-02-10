@@ -32,12 +32,7 @@ import Tableblock from "./Tableblock.vue";
 export default {
   name: "Category",
   props: ["catType", "dispType", "masterData"],
-  data(){
-    return{
-      baseURL:
-        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
-    }
-  },
+  inject: ['baseURL'],
   components: {
     Tableblock,
   },

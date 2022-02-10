@@ -1,7 +1,8 @@
 <template>
-  <div class="section">
+  <div class="section" ref="childProd">
     <div class="container">
       <h1 class="title">{{ prodData.Project }}</h1>
+      <!-- <h2>{{id}} - {{data}}</h2> -->
       <div
         v-show="
           prodData.Project &&
@@ -61,19 +62,26 @@ import Tableblock from "./Tableblock.vue";
 
 export default {
   name: "Products",
+  // props: ['id', 'data'],
+  inject: ["baseURL", "masterjson"],
   components: {
     Tableblock,
   },
   data() {
     return {
       prodData: {},
-      baseURL:
-        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
     };
   },
-  mounted() {
-    console.log(this.$route.params.data.Project);
-    this.prodData = this.$route.params.data;
+  created() {
+    let params = this.$route.params;
+
+    if (params && params.data) {
+      console.log(params.data.Project);
+      this.prodData = params.data;
+    } else {//come from browser
+    console.log("params.id = " + params.id)
+      this.prodData = this.masterjson.find(item => item.Project.toLowerCase().includes(params.id.toLowerCase()))
+    }
   },
   methods: {
     downloadfn(fileURL) {

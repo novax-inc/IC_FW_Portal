@@ -3,11 +3,13 @@
     <div class="header">
       <img id="logo" alt="Novax logo" src="./assets/logo.png" />
       <img
+        class="is-button"
         id="homeicon"
         src="./assets/home.svg"
         alt="Home icon"
         @click="$router.push('/')"
       />
+      <h1>{{message}}</h1>
     </div>
 
     <div class="container">
@@ -24,8 +26,32 @@
 </template>
 
 <script>
+import masterjson from "../master_new.json";
+
 export default {
   name: "App",
+  data() {
+    return {
+      message:''
+    };
+  },
+  provide: function () {
+    return {
+      baseURL:
+        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
+      masterjson,
+    };
+  },
+  methods: {
+    // mouseover(){
+    //   // this.message = "moouse ooooover"
+    //   document.getElementById("homeicon").style.textShadow = "true";
+    // },
+    // mouseleavefn(){
+    //   this.message = ""
+    //   document.getElementById("homeicon").style.right = "10%";
+    // }
+  },
 };
 </script>
 
@@ -39,9 +65,9 @@ export default {
 }
 .header {
   background-color: #00718f;
-  /* height: 60px; */
-  /* text-align: right; */
-  /* display:flex; */
+}
+.is-button {
+  cursor: pointer;
 }
 #logo {
   width: 140px;

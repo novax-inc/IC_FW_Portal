@@ -9,15 +9,14 @@
       <div class="tile is-ancestor">
         <div class="tile">
           <article
-            class="tile is-child notification"
+            class="tile is-child notification is-button"
             @click="gotoCatogery('cabinet', 'Cabinet & Controller')"
           >
             <p class="title">Cabinet &amp; Controller</p>
             <div class="content">
               <img
-                src="../assets/cabinet.png"
+                src="../assets/cabinet.jpg"
                 alt=""
-                sizes="(min-width: 1000px) 50vw"
               />
               <div class="content">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
@@ -30,7 +29,7 @@
         </div>
         <div class="tile is-4">
           <article
-            class="tile is-child notification is-danger"
+            class="tile is-child notification is-danger is-button"
             @click="gotoCatogery('priority', 'Priority & Pre-emption')"
           >
             <p class="title">Priority &amp; Preemption</p>
@@ -39,7 +38,6 @@
                 <img
                   src="../assets/eMVPOD.jpg"
                   alt=""
-                  sizes="(max-width: 800px) 50vw"
                 />
               </div>
               <div class="content">
@@ -51,7 +49,7 @@
         </div>
         <div class="tile">
           <article
-            class="tile is-child notification"
+            class="tile is-child notification is-button"
             @click="gotoCatogery('pedestrian', 'Pedestrian Products')"
           >
             <div class="block">
@@ -59,7 +57,7 @@
               <div class="content">
                 <p class="title">Pedestrian Products</p>
                 <div>
-                  <img src="../assets/touchfree.png" alt="" />
+                  <img src="../assets/touchfree.jpg" alt="" />
                 </div>
                 <div class="content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -90,7 +88,7 @@
         <div v-for="(item, index) in filterList" :key="index">
           <div class="column">
             <div
-              class="box"
+              class="box is-button"
               style="padding: 1em"
               @click="gotoProduct(index)"
             >
@@ -106,14 +104,12 @@
 </template>
 
 <script>
-import masterjson from "../../master_new.json";
-
 export default {
   name: "Home",
+  inject: ['masterjson'],
   data() {
     return {
       searchInput: "",
-      masterjson,
       filterList: [],
     };
   },

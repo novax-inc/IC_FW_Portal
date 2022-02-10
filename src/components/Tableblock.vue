@@ -33,7 +33,7 @@
           icon-left="tray-arrow-down"
           @click="downloadurl(props.row.url)"
         >
-          {{ props.row.id }}
+          {{ props.row.id ? props.row.id : "Download" }}
         </b-button>
       </b-table-column>
 
