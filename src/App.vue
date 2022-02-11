@@ -37,20 +37,9 @@ export default {
   },
   provide: function () {
     return {
-      baseURL:'/product_info/',
-        // "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
+      baseURL:'/product/',
       masterjson,
     };
-  },
-  methods: {
-    // mouseover(){
-    //   // this.message = "moouse ooooover"
-    //   document.getElementById("homeicon").style.textShadow = "true";
-    // },
-    // mouseleavefn(){
-    //   this.message = ""
-    //   document.getElementById("homeicon").style.right = "10%";
-    // }
   },
 };
 </script>
