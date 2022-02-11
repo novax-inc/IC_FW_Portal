@@ -9,7 +9,7 @@
           prodData.Project.toLowerCase().includes('intellicross')
         "
       >
-        <a href="../../IntelliCross254.apk" download
+        <a href="/android/IntelliCross254.apk" download
           ><img width="130" src="../assets/android.png"
         /></a>
         <a><img width="130" src="../assets/apple.png" /></a>
@@ -21,6 +21,7 @@
             <h2 class="panel-heading is-primary">Manual</h2>
             <Tableblock
               :infolist="prodData.Manual"
+              :path='baseURL + prodData.Project + "/"'
               @download_file="downloadfn"
             />
           </div>
@@ -36,6 +37,7 @@
             <h2 class="panel-heading">Firmware</h2>
             <Tableblock
               :infolist="prodData.Firmware"
+              :path='baseURL + prodData.Project + "/"'
               @download_file="downloadfn"
             />
           </div>
@@ -48,6 +50,7 @@
             <h2 class="panel-heading">Filesystem</h2>
             <Tableblock
               :infolist="prodData.Filesystem"
+              :path='baseURL + prodData.Project + "/"'
               @download_file="downloadfn"
             />
           </div>
@@ -87,7 +90,22 @@ export default {
     downloadfn(fileURL) {
       let url = this.baseURL + this.prodData.Project + "/" + fileURL;
       console.log(url);
+      // alert(url)
       window.location.href = url;
+
+//       async (url) => {
+
+//   // Change this to use your HTTP client
+//       fetch(url, {/*YOUR CUSTOM HEADER*/} ) // FETCH BLOB FROM IT
+//         .then((response) => response.blob())
+//         .then((blob) => { // RETRIEVE THE BLOB AND CREATE LOCAL URL
+//           var _url = window.URL.createObjectURL(blob);
+//           window.open(_url, "_blank").focus(); // window.open + focus
+//       }).catch((err) => {
+//         console.log(err);
+//       });
+// };
+      
     },
   },
 };

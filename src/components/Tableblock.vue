@@ -29,12 +29,14 @@
       </b-table-column>
 
       <b-table-column field="id" numeric v-slot="props">
+        <a :href="link(props.row.url)">
         <b-button
           icon-left="tray-arrow-down"
           @click="downloadurl(props.row.url)"
         >
           {{ props.row.id ? props.row.id : "Download" }}
         </b-button>
+        </a>
       </b-table-column>
 
       <template #detail="props">
@@ -63,7 +65,12 @@
 <script>
 export default {
   name: "Tableblock",
-  props: ["infolist"],
+  props: ["infolist", 'path'],
+  computed:{
+    url: function(fileurl){
+      return this.path + fileurl
+    }
+  },
   data() {
     return {
       defaultOpenedDetails: [1],
@@ -72,8 +79,14 @@ export default {
   },
   methods: {
     downloadurl(fileurl) {
-      console.log(fileurl);
-      this.$emit("download_file", fileurl);
+      // console.log(fileurl);
+      // this.$emit("download_file", fileurl);
+      let url = this.path + fileurl;
+      // alert(url)
+      window.location.href = url;
+    },
+    link(fileurl) {
+      return this.path + fileurl;
     },
   },
 };

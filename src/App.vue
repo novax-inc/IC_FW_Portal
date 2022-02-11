@@ -37,8 +37,8 @@ export default {
   },
   provide: function () {
     return {
-      baseURL:
-        "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
+      baseURL:'/product_info/',
+        // "https://raw.githubusercontent.com/xiaobingnic/IC_FW_Portal/main/Product_Info/",
       masterjson,
     };
   },
