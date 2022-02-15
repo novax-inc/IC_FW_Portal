@@ -22,6 +22,11 @@ const routes = [
         name: 'Products',
         // props: true,
         component: () => import('../components/Products.vue')
+    },
+    {
+        path: '/master',
+        name: 'Master',
+        component: () => import("../components/Master.vue")
     }
 ]
 const router = new VueRouter({

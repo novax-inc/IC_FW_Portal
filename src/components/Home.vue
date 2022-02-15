@@ -2,7 +2,8 @@
   <div class="section">
     <h1 class="title">Product Categories</h1>
     <h2 class="subtitle">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim cumque eius sit?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim cumque eius
+      sit?
     </h2>
 
     <div class="box">
@@ -14,10 +15,7 @@
           >
             <p class="title">Cabinet &amp; Controller</p>
             <div class="content">
-              <img
-                src="../assets/cabinet.jpg"
-                alt=""
-              />
+              <img src="../assets/cabinet.jpg" alt="" />
               <div class="content">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
                 numquam corrupti velit accusantium suscipit voluptate dolor
@@ -35,10 +33,7 @@
             <p class="title">Priority &amp; Preemption</p>
             <div class="content">
               <div class="blcok">
-                <img
-                  src="../assets/eMVPOD.jpg"
-                  alt=""
-                />
+                <img src="../assets/eMVPOD.jpg" alt="" />
               </div>
               <div class="content">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -74,10 +69,12 @@
     <div class="container" id="prodList">
       <h1 class="title">All Products</h1>
       <h2 class="subtitle">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
+        necessitatibus!
       </h2>
       <b-field>
         <b-input
+          type="search"
           placeholder="Search Products..."
           v-model="searchInput"
           icon-right="magnify"
@@ -106,7 +103,7 @@
 <script>
 export default {
   name: "Home",
-  inject: ['masterjson'],
+  inject: ["masterjson"],
   data() {
     return {
       searchInput: "",
