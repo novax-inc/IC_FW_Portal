@@ -1,10 +1,10 @@
 <template>
   <div class="section">
     <h1 class="title">Product Categories</h1>
-    <h2 class="subtitle">
+    <!-- <h2 class="subtitle">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim cumque eius
       sit?
-    </h2>
+    </h2> -->
 
     <div class="box">
       <div class="tile is-ancestor">
@@ -16,12 +16,12 @@
             <p class="title">Cabinet &amp; Controller</p>
             <div class="content">
               <img src="../assets/cabinet.jpg" alt="" />
-              <div class="content">
+              <!-- <div class="content">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
                 numquam corrupti velit accusantium suscipit voluptate dolor
                 repudiandae. Eaque porro, atque perspiciatis suscipit temporibus
                 aut ut?
-              </div>
+              </div> -->
             </div>
           </article>
         </div>
@@ -32,13 +32,13 @@
           >
             <p class="title">Priority &amp; Preemption</p>
             <div class="content">
-              <div class="blcok">
+              <!-- <div style="height:100px"> -->
                 <img src="../assets/eMVPOD.jpg" alt="" />
-              </div>
-              <div class="content">
+              <!-- </div> -->
+              <!-- <div class="content">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Architecto fugiat recusandae tempore quaerat totam. Iusto!
-              </div>
+              </div> -->
             </div>
           </article>
         </div>
@@ -54,11 +54,11 @@
                 <div>
                   <img src="../assets/touchfree.jpg" alt="" />
                 </div>
-                <div class="content">
+                <!-- <div class="content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi ut quo modi culpa quod recusandae maiores eligendi
                   odio, iusto animi.
-                </div>
+                </div> -->
               </div>
             </div>
           </article>
