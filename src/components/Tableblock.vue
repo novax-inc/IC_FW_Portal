@@ -24,7 +24,7 @@
 
       <b-table-column field="date" label="Date" centered v-slot="props">
         <span class="tag is-success">
-          {{ new Date(props.row.date).toLocaleDateString() }}
+          {{ new Date(props.row.date).toLocaleDateString('en-US', {timeZone: 'UTC'}) }}
         </span>
       </b-table-column>
 
