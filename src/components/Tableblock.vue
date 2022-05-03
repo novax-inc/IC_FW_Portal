@@ -8,7 +8,7 @@
       ref="table"
       :opened-detailed="defaultOpenedDetails"
       detailed
-      detail-key="id"
+      detail-key="url"
       :show-detail-icon="showDetailIcon"
     >
       <b-table-column field="name" label="Name" centered v-slot="props">
@@ -42,17 +42,14 @@
       <template #detail="props">
         <article class="media">
           <div class="media-content">
-            <div class="content">
+            <strong>Update Details:</strong>
+            <div class="content" align="left">
               <p>
-                <strong>Update Details:</strong>
-                <br />
-                {{ props.row.description }}
-                <br />
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Perspiciatis sunt odio nulla officia provident, excepturi,
-                temporibus cumque delectus doloribus quidem optio possimus, et
-                accusantium amet molestias consequuntur ratione nisi
-                perferendis!
+                <ul style="list-style-type:none; ">
+                  <li v-for="(num,index) in props.row.description.length" :key="index">
+                    {{ props.row.description[index] }}
+                    <br /></li>
+              </ul>
               </p>
             </div>
           </div>
@@ -65,11 +62,11 @@
 <script>
 export default {
   name: "Tableblock",
-  props: ["infolist", 'path'],
-  computed:{
-    url: function(fileurl){
-      return this.path + fileurl
-    }
+  props: ["infolist", "path"],
+  computed: {
+    url: function (fileurl) {
+      return this.path + fileurl;
+    },
   },
   data() {
     return {
