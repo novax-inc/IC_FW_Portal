@@ -1,11 +1,11 @@
 <template>
   <div class="section">
-    <h1 class="title">Product Categories</h1>
-    <!-- <h2 class="subtitle">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim cumque eius
-      sit?
-    </h2> -->
+    <div>
+      <div class="line"></div>
 
+      <h1 class="title">Product Categories</h1>
+      <div class="line"></div>
+    </div>
     <div class="box">
       <div class="tile is-ancestor">
         <div class="tile">
@@ -14,7 +14,7 @@
             @click="gotoCatogery('cabinet', 'Cabinet & Controller')"
           >
             <p class="title">Cabinet &amp; Controller</p>
-            <div class="content">
+            <div class="cat">
               <img src="../assets/cabinet.jpg" alt="" />
               <!-- <div class="content">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
@@ -31,9 +31,9 @@
             @click="gotoCatogery('priority', 'Priority & Pre-emption')"
           >
             <p class="title">Priority &amp; Preemption</p>
-            <div class="content">
+            <div class="cat">
               <!-- <div style="height:100px"> -->
-                <img src="../assets/eMVPOD.jpg" alt="" />
+              <img src="../assets/eMVPOD.jpg" alt="" />
               <!-- </div> -->
               <!-- <div class="content">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -47,31 +47,28 @@
             class="tile is-child notification is-button"
             @click="gotoCatogery('pedestrian', 'Pedestrian Products')"
           >
-            <div class="block">
-              <span id="PedestrianBar"></span>
-              <div class="content">
-                <p class="title">Pedestrian Products</p>
-                <div>
-                  <img src="../assets/touchfree.jpg" alt="" />
-                </div>
-                <!-- <div class="content">
+            <!-- <div class="block"> -->
+            <!-- <span id="PedestrianBar"></span> -->
+            <div class="content">
+              <p class="title">Pedestrian Products</p>
+              <div class="cat">
+                <img src="../assets/touchfree.jpg" alt="" />
+              </div>
+              <!-- <div class="content">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi ut quo modi culpa quod recusandae maiores eligendi
                   odio, iusto animi.
                 </div> -->
-              </div>
             </div>
+            <!-- </div> -->
           </article>
         </div>
       </div>
     </div>
 
-    <div class="container" id="prodList">
-      <h1 class="title">All Products</h1>
-      <h2 class="subtitle">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
-        necessitatibus!
-      </h2>
+    <h1 class="title">All Products</h1>
+
+    <div class="box" id="prodList">
       <b-field>
         <b-input
           type="search"
@@ -150,16 +147,9 @@ export default {
 };
 </script>
 
-<style scoped>
-.content {
-  width: 90%;
-}
+<style>
 .section {
   padding: 1rem;
-}
-.searchBar {
-  /* position: sticky;
-  top: 0; */
 }
 #PedestrianBar {
   width: min(20px, 20%);
@@ -172,7 +162,24 @@ export default {
     #fff 40px
   );
 }
+.line {
+}
 .block {
-  display: inline-flex;
+  /* display: inline-flex; */
+}
+.tile {
+  gap: 0.6rem;
+}
+.notification {
+  padding: 1.25rem;
+}
+.cat {
+}
+.cat img {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 2px;
 }
 </style>
