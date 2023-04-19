@@ -1,140 +1,38 @@
-{
-    "product_1": {"Project": "IntelliCross™",
+[
+    {
+        "Project": "CIU-CR",
         "Category": "cabinet",
-        "DispName": "IntelliCross™",
         "Firmware": [
             {
-                "id": "1.65",
-                "url": "IC_TouchFree_v1.64.bin",
+                "id": "",
+                "url": "",
                 "checksum": "",
-                "date": "2022-02-03",
-                "description": "For upload test"
-            },
-            {
-                "id": "1.64",
-                "url": "IC_TouchFree_v1.64.bin",
-                "checksum": "",
-                "date": "2022-01-04",
-                "description": "Update status display"
-            },
-            {
-                "id": "1.63",
-                "url": "IC_TouchFree_v1.64_hotspot.bin",
-                "checksum": "",
-                "date": "2022-01-01",
-                "description": "hotspot working version"
-            },
-            {
-                "id": "1.62",
-                "url": "IC_TouchFree_v1.63.bin",
-                "checksum": "",
-                "date": "2021-12-16",
-                "description": "factory reset"
-            },
-            {
-                "id": "1.61",
-                "url": "IC_TouchFree_v1.63_BLE.bin",
-                "checksum": "",
-                "date": "2021-12-16",
-                "description": ""
-            },
-            {
-                "id": "1.61_Beta",
-                "url": "IC_TouchFree_v1.62.bin",
-                "checksum": "",
-                "date": "2021-12-15",
-                "description": "Support hotspot connection."
-            },
-            {
-                "id": "1.60",
-                "url": "IC_TouchFree_v1.62_BLE.bin",
-                "checksum": "",
-                "date": "2021-12-09",
-                "description": "Support hotspot connection."
-            },
-            {
-                "id": "1.59",
-                "url": "IC_TouchFree_v1.61.bin",
-                "checksum": "",
-                "date": "2021-12-08",
-                "description": "Fixed bluetooth issue. Improved user interface."
-            },
-            {
-                "id": "1.58",
-                "url": "IC_TouchFree_v1.6x.bin",
-                "checksum": "",
-                "date": "2021-02-09"
+                "date": "2022-05-03",
+                "description": [
+                    "Dual mode supported, username/password as below:",
+                    "1. Station hotspot mode : novax/n05axtfb",
+                    "2. Access Point mode : INT-PB-XXXX/t0uchFr33"
+                ]
             }
         ],
         "Filesystem": [
             {
-                "id": "Pelco UI",
-                "url": "spiffs-demo-novax-hotspot.bin",
+                "id": "",
+                "url": "dist_v53.zip",
                 "checksum": "",
-                "date": "2022-01-19",
-                "description": "Training Build"
+                "date": "2023-04-19",
+                "description": [
+                    "Add wifi config page"
+                ]
             },
             {
-                "id": "DEMO",
-                "url": "spiffs-demo-v1.11-rc24.bin",
+                "id": "",
+                "url": "dist_v51.zip",
                 "checksum": "",
-                "date": "2022-01-07",
-                "description": "for mobile app demo"
-            },
-            {
-                "id": "1.11-rc27",
-                "url": "spiffs-release-v1.11-rc27.bin",
-                "checksum": "",
-                "date": "2021-12-23",
-                "description": "for test"
-            },
-            {
-                "id": "1.11-rc26",
-                "url": "spiffs-release-v1.11-rc26.bin",
-                "checksum": "",
-                "date": "2021-12-22",
-                "description": "one click for the latest"
-            },
-            {
-                "id": "1.11-rc25",
-                "url": "spiffs-release-v1.11-rc25.bin",
-                "checksum": "",
-                "date": "2021-12-20",
-                "description": "compress to 2M size"
-            },
-            {
-                "id": "1.11-rc24",
-                "url": "spiffs-release-v1.11-rc24.bin",
-                "checksum": "",
-                "date": "2021-12-16",
-                "description": "factory reset"
-            },
-            {
-                "id": "1.11-rc23",
-                "url": "spiffs-release-v1.11-rc23.bin",
-                "checksum": "",
-                "date": "2021-12-15",
-                "description": "merge latest frontend"
-            },
-            {
-                "id": "1.11-rc22",
-                "url": "spiffs-release-v1.11-rc22.bin",
-                "checksum": "",
-                "date": "2021-12-13",
-                "description": "OTA upload"
-            },
-            {
-                "id": "1.11-rc21",
-                "url": "spiffs-release-v1.11-rc21.bin",
-                "checksum": "",
-                "date": "2021-12-09",
-                "description": "Fixed minor bug in sound page."
-            },
-            {
-                "id": "1.03",
-                "url": "spiffs_v1.03.bin",
-                "checksum": "",
-                "date": "2021-05-01"
+                "date": "2023-03-20",
+                "description": [
+                    "For mobile app demo, compatible with dual mode"
+                ]
             }
         ],
         "Manual": [
@@ -142,13 +40,9 @@
                 "id": "Flyer",
                 "url": "Novax Intellicross Flyer_Web.pdf",
                 "date": "2022-01-31",
-                "description": "Novax Intellicross Flyer_Webxx.pdf"
-            },
-            {
-                "id": "Foldout",
-                "url": "Novax Intellicross Foldout_Web.pdf",
-                "date": "2022-01-31",
-                "description": "Novax Intellicross Foldout_Web.pdf"
+                "description": [
+                    ""
+                ]
             }
         ],
         "Default_setting": [
@@ -157,18 +51,98 @@
                 "url": "IC_TouchFree_v1.62.bin",
                 "checksum": "",
                 "date": "2021-12-15",
-                "description": "Support hotspot connection."
+                "description": [
+                    "Support hotspot connection."
+                ]
+            }
+        ]
+    },
+    {
+        "Project": "IntelliCross™",
+        "Category": "cabinet",
+        "Firmware": [
+            {
+                "id": "",
+                "url": "IC_TouchFree_hotspot.bin",
+                "checksum": "",
+                "date": "2022-05-03",
+                "description": [
+                    "Dual mode supported, username/password as below:",
+                    "1. Station hotspot mode : novax/n05axtfb",
+                    "2. Access Point mode : INT-PB-XXXX/t0uchFr33"
+                ]
+            },
+            {
+                "id": "",
+                "url": "IC_TouchFree_v1.63.bin",
+                "checksum": "",
+                "date": "2022-04-29",
+                "description": [
+                    "Release_v1 final version, AP mode only"
+                ]
+            }
+        ],
+        "Filesystem": [
+            {
+                "id": "",
+                "url": "spiffs-demo-hotspot.bin",
+                "checksum": "",
+                "date": "2022-05-03",
+                "description": [
+                    "For mobile app demo, compatible with dual mode"
+                ]
+            },
+            {
+                "id": "",
+                "url": "spiffs-release-v1.11-rc25.bin",
+                "checksum": "",
+                "date": "2022-04-29",
+                "description": [
+                    "Release_v1 final version, AP mode only"
+                ]
+            }
+        ],
+        "Manual": [
+            {
+                "id": "Flyer",
+                "url": "Novax Intellicross Flyer_Web.pdf",
+                "date": "2022-01-31",
+                "description": [
+                    ""
+                ]
+            },
+            {
+                "id": "Foldout",
+                "url": "Novax Intellicross Foldout_Web.pdf",
+                "date": "2022-01-31",
+                "description": [
+                    "Novax Intellicross Foldout_Web.pdf"
+                ]
+            }
+        ],
+        "Default_setting": [
+            {
+                "id": "1.62",
+                "url": "IC_TouchFree_v1.62.bin",
+                "checksum": "",
+                "date": "2021-12-15",
+                "description": [
+                    "Support hotspot connection."
+                ]
             },
             {
                 "id": "1.11-rc23",
                 "url": "spiffs-release-v1.11-rc23.bin",
                 "checksum": "",
                 "date": "2021-12-15",
-                "description": "merge latest frontend"
+                "description": [
+                    "merge latest frontend"
+                ]
             }
         ]
     },
-    "product_3": {"Project": "DS100 Series APS",
+    {
+        "Project": "DS100 Series APS",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -176,18 +150,23 @@
                 "url": "MAN000003-2.0 (DS100 Insttallation Manual).pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             },
             {
                 "id": "Brochure",
                 "url": "Novax DS100 Brochure.pdf",
                 "checksum": "",
                 "date": "2013-10-10",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_4": {"Project": "DS101-DC Series",
+    {
+        "Project": "DS101-DC Series",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -195,11 +174,14 @@
                 "url": "MAN000344-1.0 (DS101 EVTR-1040 Train Crossing Audible Warning Signal Instl Mnl).pdf",
                 "checksum": "",
                 "date": "2021-07-15",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_5": {"Project": "DS3000 Series APS",
+    {
+        "Project": "DS3000 Series APS",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -207,23 +189,38 @@
                 "url": "DS3000_Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
+            },
+            {
+                "id": "",
+                "url": "MAN000143-1.1 DS3000-2.0 Inst Guide (Legacy).pdf",
+                "checksum": "",
+                "date": "2022-03-25",
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_6": {"Project": "eMVPOD™",
+    {
+        "Project": "eMVPOD™",
         "Category": "priority",
         "Manual": [
             {
-                "id": "Brochure",
+                "id": "",
                 "url": "Novax Transpod Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_7": {"Project": "Fire Hall Signals",
+    {
+        "Project": "Fire Hall Signals",
         "Category": "priority",
         "Manual": [
             {
@@ -231,18 +228,23 @@
                 "url": "Fire-Hall-Controller-System.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             },
             {
                 "id": "Brochure",
                 "url": "Firehall-Signal-System-Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_8": {"Project": "MetroTag™ Transponder",
+    {
+        "Project": "MetroTag™ Transponder",
         "Category": "priority",
         "Manual": [
             {
@@ -250,11 +252,14 @@
                 "url": "Novax-MetroTag-201403.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_9": {"Project": "Model 401 C, D, R & S",
+    {
+        "Project": "Model 401 C, D, R & S",
         "Category": "cabinet",
         "Manual": [
             {
@@ -262,11 +267,14 @@
                 "url": "DOC000364-1.0 (Mdl 401 FTMS Cabinet Brochure).pdf",
                 "checksum": "",
                 "date": "2021-09-14",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_10": {"Project": "Model 6905™",
+    {
+        "Project": "Model 6905™",
         "Category": "cabinet",
         "Manual": [
             {
@@ -274,43 +282,55 @@
                 "url": "Novax Model 6905 Traffic Controller Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_11": {"Project": "Models F, B & G",
+    {
+        "Project": "Models F, B & G",
         "Manual": [
             {
                 "id": "2300F-6905",
                 "url": "2300F-6905.pdf",
                 "checksum": "",
                 "date": "2021-10-26",
-                "description": ""
+                "description": [
+                    ""
+                ]
             },
             {
                 "id": "B Cabinet 201403",
                 "url": "B Cabinet 201403.pdf",
                 "checksum": "",
                 "date": "2014-03-04",
-                "description": ""
+                "description": [
+                    ""
+                ]
             },
             {
                 "id": "F Cabinet 201403",
                 "url": "F Cabinet 201403.pdf",
                 "checksum": "",
                 "date": "2014-03-04",
-                "description": ""
+                "description": [
+                    ""
+                ]
             },
             {
                 "id": "G Cabinet 201403",
                 "url": "G Cabinet 201403.pdf",
                 "checksum": "",
                 "date": "2014-03-04",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_12": {"Project": "NEMA TS2 Two Phase",
+    {
+        "Project": "NEMA TS2 Two Phase",
         "Category": "cabinet",
         "Manual": [
             {
@@ -318,11 +338,14 @@
                 "url": "Novax NEMA TS2 Two Phase Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_13": {"Project": "Pedestrian Signal Control",
+    {
+        "Project": "Pedestrian Signal Control",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -330,22 +353,28 @@
                 "url": "Novax-PXO-II-201403.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_14": {"Project": "Series II Controller",
+    {
+        "Project": "Series II Controller",
         "Manual": [
             {
                 "id": "PXO-II-201403",
                 "url": "Novax-PXO-II-201403.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_15": {"Project": "Standard TouchFree™ Button",
+    {
+        "Project": "Standard TouchFree™ Button",
         "Category": "pedestrian",
         "Manual": [
             {
@@ -353,23 +382,29 @@
                 "url": "DOC00346-1.4 Novax TF Btn Install Guide.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_16": {"Project": "TouchFree Kit for IntelliCross",
-        "Category": "pedestrian", 
+    {
+        "Project": "TouchFree Kit for IntelliCross",
+        "Category": "pedestrian",
         "Manual": [
             {
                 "id": "Install_Guide",
                 "url": "DOC000325-1.9_IntelliCross Touch-Free + Wi-Fi_Install_Guide.pdf",
                 "checksum": "",
-                "date": "2022-01-27",
-                "description": ""
+                "date": "2022-02-10",
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_17": {"Project": "TransPOD™",
+    {
+        "Project": "TransPOD™",
         "Category": "priority",
         "Manual": [
             {
@@ -377,11 +412,14 @@
                 "url": "Novax Transpod Brochure.pdf",
                 "checksum": "",
                 "date": "2022-01-31",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     },
-    "product_18": {"Project": "Type 332 Cabinet",
+    {
+        "Project": "Type 332 Cabinet",
         "Category": "cabinet",
         "Firmware": [
             {
@@ -389,7 +427,9 @@
                 "url": "IC_TouchFree_v1.64.bin",
                 "checksum": "",
                 "date": "2022-01-04",
-                "description": "Update status display"
+                "description": [
+                    "Update status display"
+                ]
             }
         ],
         "Manual": [
@@ -398,8 +438,10 @@
                 "url": "332 Cabinet 201403.pdf",
                 "checksum": "",
                 "date": "2014-03-04",
-                "description": ""
+                "description": [
+                    ""
+                ]
             }
         ]
     }
-}
+]
