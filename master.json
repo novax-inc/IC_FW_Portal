@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_latest.zip",
+                "checksum": "",
+                "date": "2023-04-19",
+                "description": [
+                    "what ever it is, it is the latest version"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v53.zip",
                 "checksum": "",
                 "date": "2023-04-19",
