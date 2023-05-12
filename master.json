@@ -18,11 +18,11 @@
         "Filesystem": [
             {
                 "id": "",
-                "url": "dist_v56.zip",
+                "url": "dist_v57.zip",
                 "checksum": "",
-                "date": "2023-05-02",
+                "date": "2023-05-12",
                 "description": [
-                    "CIU input/output merged together"
+                    "button setting edited, phase_slot add 24, clocksetting fix"
                 ]
             },
             {
