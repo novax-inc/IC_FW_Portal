@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v58.zip",
+                "checksum": "",
+                "date": "2023-05-17",
+                "description": [
+                    "add fault monitor page; sound script affect the sound setting edited"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v57.zip",
                 "checksum": "",
                 "date": "2023-05-12",
