@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v59.zip",
+                "checksum": "",
+                "date": "2023-06-08",
+                "description": [
+                    "fix sound setting page edit display issue, reflecting sound/script changes; intersection map also distinguish edited buttons "
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v58.zip",
                 "checksum": "",
                 "date": "2023-05-17",
