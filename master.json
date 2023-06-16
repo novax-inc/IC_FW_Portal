@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v60.zip",
+                "checksum": "",
+                "date": "2023-06-16",
+                "description": [
+                    "wifi page update; upload page alert for unsupported nic file"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v59.zip",
                 "checksum": "",
                 "date": "2023-06-08",
