@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v61.zip",
+                "checksum": "",
+                "date": "2023-06-20",
+                "description": [
+                    "quick fix on intersection Map page black button issue when pressing preview button"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v60.zip",
                 "checksum": "",
                 "date": "2023-06-16",
