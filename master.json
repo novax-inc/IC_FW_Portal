@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist.zip",
+                "checksum": "",
+                "date": "2023-06-22",
+                "description": [
+                    "latest version in debug mode"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v61.zip",
                 "checksum": "",
                 "date": "2023-06-20",
