@@ -18,11 +18,11 @@
         "Filesystem": [
             {
                 "id": "",
-                "url": "dist.zip",
+                "url": "dist_v62.zip",
                 "checksum": "",
-                "date": "2023-06-22",
+                "date": "2023-06-26",
                 "description": [
-                    "latest version in debug mode"
+                    "disable mobile browser refresh;select file with only accepted fromat"
                 ]
             },
             {
