@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v63.zip",
+                "checksum": "",
+                "date": "2023-06-28",
+                "description": [
+                    "allowing package (.zip file contains all .nic and .snd) upload in Tools>Manage Config File; reduce backend size for removing doUpload cgi "
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v62.zip",
                 "checksum": "",
                 "date": "2023-06-26",
