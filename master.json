@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v64.zip",
+                "checksum": "",
+                "date": "2023-07-05",
+                "description": [
+                    "Bug 2461 - Custom Sounds Configuration Error. Sorted custom sound starting from 100"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v63.zip",
                 "checksum": "",
                 "date": "2023-06-28",
