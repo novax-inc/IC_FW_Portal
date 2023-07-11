@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v65.zip",
+                "checksum": "",
+                "date": "2023-07-11",
+                "description": [
+                    "Bug 2476 - Custom Sound Disappearing from Phase Bug; Bug 2462 - User Interface: Mobile App GUI Enhancement  - partially. "
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v64.zip",
                 "checksum": "",
                 "date": "2023-07-05",
