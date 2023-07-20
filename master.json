@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v66.zip",
+                "checksum": "",
+                "date": "2023-07-20",
+                "description": [
+                    "Bug 2467 - Timezone settings suggestions and minor bug, plus added search feature in clock setting"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v65.zip",
                 "checksum": "",
                 "date": "2023-07-11",
