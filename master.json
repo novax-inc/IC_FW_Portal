@@ -16,6 +16,15 @@
             }
         ],
         "Filesystem": [
+             {
+                "id": "",
+                "url": "dist_v67.zip",
+                "checksum": "",
+                "date": "2023-07-27",
+                "description": [
+                    "Bug 2442 - Forget password - Passcode retrieve; Tools page minor layout/style improvement; "
+                ]
+            },
             {
                 "id": "",
                 "url": "dist_v66.zip",
