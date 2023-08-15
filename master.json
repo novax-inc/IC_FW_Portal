@@ -16,6 +16,15 @@
             }
         ],
         "Filesystem": [
+             {
+                "id": "",
+                "url": "dist_v70.zip",
+                "checksum": "",
+                "date": "2023-08-15",
+                "description": [
+                    "fixed some GIU enhancement; added Center X,Y for a trail test; scroll in eventlog when clicking in analysis data "
+                ]
+            },
             {
                 "id": "",
                 "url": "dist_v69.zip",
