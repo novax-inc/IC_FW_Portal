@@ -16,6 +16,15 @@
             }
         ],
         "Filesystem": [
+            {
+                "id": "",
+                "url": "dist_v71.zip",
+                "checksum": "",
+                "date": "2023-08-22",
+                "description": [
+                    "ID buttons and others"
+                ]
+            },
              {
                 "id": "",
                 "url": "dist_v70.zip",
