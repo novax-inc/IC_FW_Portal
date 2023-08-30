@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v74.zip",
+                "checksum": "",
+                "date": "2023-08-30",
+                "description": [
+                    "GUI enhancement bugzilla and fix custom sound name comparison issue per character limitation 32 in FT list"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v72.zip",
                 "checksum": "",
                 "date": "2023-08-28",
