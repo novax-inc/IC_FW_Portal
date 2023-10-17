@@ -18,6 +18,24 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v77_1486f71b.niu",
+                "checksum": "",
+                "date": "2023-10-17",
+                "description": [
+                    "Fix ping/deploy. Fix feedback: load bars, error msg, help&info"
+                ]
+            },
+            {
+                "id": "",
+                "url": "dist_v76.zip",
+                "checksum": "",
+                "date": "2023-09-18",
+                "description": [
+                    "Improved login page, update firmware feature"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v75.zip",
                 "checksum": "",
                 "date": "2023-09-11",
