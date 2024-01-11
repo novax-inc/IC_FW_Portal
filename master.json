@@ -18,9 +18,9 @@
         "Filesystem": [
             {
                 "id": "",
-                "url": "dist_v77_1486f71b.niu",
+                "url": "dist_v77_8f12dd5b.niu",
                 "checksum": "",
-                "date": "2023-10-17",
+                "date": "2023-12-13",
                 "description": [
                     "Fix ping/deploy. Fix feedback: load bars, error msg, help&info"
                 ]
