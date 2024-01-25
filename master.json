@@ -18,6 +18,15 @@
         "Filesystem": [
             {
                 "id": "",
+                "url": "dist_v78_666615eb.niu",
+                "checksum": "",
+                "date": "2024-1-24",
+                "description": [
+                    "Multiple DNS support & bug fixes"
+                ]
+            },
+            {
+                "id": "",
                 "url": "dist_v77_8f12dd5b.niu",
                 "checksum": "",
                 "date": "2023-12-13",
